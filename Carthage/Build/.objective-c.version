@@ -1,0 +1,27 @@
+{
+  "Mac" : [
+    {
+      "name" : "PubNub",
+      "hash" : "c2390cd6fdd07267cfebdd7ae5b3188ae1e36938108f7591839f0798171afc47"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "PubNub",
+      "hash" : "77f9af0e32906e9e35f30a490f7c7588e193577eb90c5b551066a402bc221ffc"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "PubNub",
+      "hash" : "2fc6ecc45c0fdd9ccee6fcfac908cca28e7dd9054018414c81d0492694e811d3"
+    }
+  ],
+  "commitish" : "v4.8.7",
+  "iOS" : [
+    {
+      "name" : "PubNub",
+      "hash" : "7c6a369d6c877baeaeb70422f36280c3493ceac915825e7d897e651b6e6992fa"
+    }
+  ]
+}

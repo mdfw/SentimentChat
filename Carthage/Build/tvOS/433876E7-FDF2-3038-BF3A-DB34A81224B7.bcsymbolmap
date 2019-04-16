@@ -1,0 +1,2568 @@
+BCSymbolMap Version: 2.0
++[PNAPICallBuilder copyMethodsFromClasses:]
++[PNAPICallBuilder builderWithExecutionBlock:]
+-[PNAPICallBuilder initWithExecutionBlock:]
+-[PNAPICallBuilder setFlag:]
+-[PNAPICallBuilder setValue:forParameter:]
+-[PNAPICallBuilder performWithBlock:]
+-[PNAPICallBuilder queryParam]
+___30-[PNAPICallBuilder queryParam]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[PNAPICallBuilder flags]
+-[PNAPICallBuilder setFlags:]
+-[PNAPICallBuilder parameters]
+-[PNAPICallBuilder setParameters:]
+-[PNAPICallBuilder executionBlock]
+-[PNAPICallBuilder setExecutionBlock:]
+-[PNAPICallBuilder .cxx_destruct]
+_OBJC_IVAR_$_PNAPICallBuilder._flags
+_OBJC_IVAR_$_PNAPICallBuilder._parameters
+_OBJC_IVAR_$_PNAPICallBuilder._executionBlock
+___block_descriptor_tmp
+Apple LLVM version 10.0.0 (clang-1000.10.38)
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/PNAPICallBuilder.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/Framework
+__destroy_helper_block_
+__copy_helper_block_
+__30-[PNAPICallBuilder queryParam]_block_invoke
++[PNPushNotificationsStateModificationParser operations]
++[PNPushNotificationsStateModificationParser requireAdditionalData]
++[PNPushNotificationsStateModificationParser parsedServiceResponse:]
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_PNParser
+l_OBJC_LABEL_PROTOCOL_$_PNParser
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNPushNotificationsStateModificationParser.m
++[NSURLSessionConfiguration(PNConfiguration) pn_ephemeralSessionConfigurationWithIdentifier:]
++[NSURLSessionConfiguration(PNConfiguration) pn_backgroundSessionConfigurationWithIdentifier:]
++[NSURLSessionConfiguration(PNConfiguration) pn_HTTPAdditionalHeaders]
++[NSURLSessionConfiguration(PNConfiguration) pn_setHTTPAdditionalHeaders:]
++[NSURLSessionConfiguration(PNConfiguration) pn_networkServiceType]
++[NSURLSessionConfiguration(PNConfiguration) pn_setNetworkServiceType:]
++[NSURLSessionConfiguration(PNConfiguration) pn_allowsCellularAccess]
++[NSURLSessionConfiguration(PNConfiguration) pn_setAllowsCellularAccess:]
++[NSURLSessionConfiguration(PNConfiguration) pn_protocolClasses]
++[NSURLSessionConfiguration(PNConfiguration) pn_setProtocolClasses:]
++[NSURLSessionConfiguration(PNConfiguration) pn_connectionProxyDictionary]
++[NSURLSessionConfiguration(PNConfiguration) pn_setConnectionProxyDictionary:]
++[NSURLSessionConfiguration(PNConfiguration) pn_configurations]
+___63+[NSURLSessionConfiguration(PNConfiguration) pn_configurations]_block_invoke
++[NSURLSessionConfiguration(PNConfiguration) pn_setDefaultValuesForSessionConfiguration:]
++[NSURLSessionConfiguration(PNConfiguration) pn_filteredProtocolClasses:]
+___73+[NSURLSessionConfiguration(PNConfiguration) pn_filteredProtocolClasses:]_block_invoke
++[NSURLSessionConfiguration(PNConfiguration) pn_defaultHeaders]
+___63+[NSURLSessionConfiguration(PNConfiguration) pn_defaultHeaders]_block_invoke
+_pn_configurations._sharedSessionConfigurations
+_pn_configurations.onceToken
+___block_literal_global
+___block_descriptor_tmp.90
+_pn_defaultHeaders.defaultHeaders
+_pn_defaultHeaders.onceToken
+___block_descriptor_tmp.93
+___block_literal_global.94
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Categories/NSURLSessionConfiguration+PNConfiguration.m
+__63+[NSURLSessionConfiguration(PNConfiguration) pn_defaultHeaders]_block_invoke
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/usr/include/dispatch/once.h
+__73+[NSURLSessionConfiguration(PNConfiguration) pn_filteredProtocolClasses:]_block_invoke
+__63+[NSURLSessionConfiguration(PNConfiguration) pn_configurations]_block_invoke
+-[PNPresenceChannelGroupHereNowResult data]
+-[PNPresenceChannelGroupHereNowResult setData:]
+-[PNPresenceChannelGroupHereNowResult .cxx_destruct]
+_OBJC_IVAR_$_PNPresenceChannelGroupHereNowResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNPresenceChannelGroupHereNowResult.m
++[PNChannelGroupModificationParser operations]
++[PNChannelGroupModificationParser requireAdditionalData]
++[PNChannelGroupModificationParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNChannelGroupModificationParser.m
+-[PNChannelGroupClientStateData channels]
+-[PNChannelGroupClientStateResult data]
+-[PNChannelGroupClientStateResult setData:]
+-[PNChannelGroupClientStateResult .cxx_destruct]
+_OBJC_IVAR_$_PNChannelGroupClientStateResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNChannelGroupClientStateResult.m
+-[PNTelemetry init]
+-[PNTelemetry operationsLatencyForRequest]
+___42-[PNTelemetry operationsLatencyForRequest]_block_invoke
+___42-[PNTelemetry operationsLatencyForRequest]_block_invoke_2
+___copy_helper_block_.165
+___destroy_helper_block_.166
+-[PNTelemetry startLatencyMeasureFor:withIdentifier:]
+___53-[PNTelemetry startLatencyMeasureFor:withIdentifier:]_block_invoke
+___copy_helper_block_.181
+___destroy_helper_block_.182
+-[PNTelemetry stopLatencyMeasureFor:withIdentifier:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___52-[PNTelemetry stopLatencyMeasureFor:withIdentifier:]_block_invoke
+___copy_helper_block_.186
+___destroy_helper_block_.187
+___52-[PNTelemetry stopLatencyMeasureFor:withIdentifier:]_block_invoke.189
+___copy_helper_block_.192
+___destroy_helper_block_.193
+-[PNTelemetry setLatency:forOperation:]
+___39-[PNTelemetry setLatency:forOperation:]_block_invoke
+___copy_helper_block_.205
+___destroy_helper_block_.206
+-[PNTelemetry endpointNameForOperation:]
+-[PNTelemetry handleCleanUpTimer:]
+___34-[PNTelemetry handleCleanUpTimer:]_block_invoke
+___copy_helper_block_.228
+___destroy_helper_block_.229
+-[PNTelemetry invalidate]
+-[PNTelemetry latencies]
+-[PNTelemetry setLatencies:]
+-[PNTelemetry trackedLatencies]
+-[PNTelemetry setTrackedLatencies:]
+-[PNTelemetry cleanUpTimer]
+-[PNTelemetry setCleanUpTimer:]
+-[PNTelemetry resourceAccessQueue]
+-[PNTelemetry setResourceAccessQueue:]
+-[PNTelemetry .cxx_destruct]
+_OBJC_IVAR_$_PNTelemetry._resourceAccessQueue
+_OBJC_IVAR_$_PNTelemetry._latencies
+_OBJC_IVAR_$_PNTelemetry._trackedLatencies
+_OBJC_IVAR_$_PNTelemetry._cleanUpTimer
+___block_descriptor_tmp.168
+___block_descriptor_tmp.183
+___block_descriptor_tmp.188
+___block_descriptor_tmp.194
+___block_descriptor_tmp.207
+___block_descriptor_tmp.230
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Managers/PNTelemetry.m
+__34-[PNTelemetry handleCleanUpTimer:]_block_invoke
+__39-[PNTelemetry setLatency:forOperation:]_block_invoke
+__52-[PNTelemetry stopLatencyMeasureFor:withIdentifier:]_block_invoke.189
+__52-[PNTelemetry stopLatencyMeasureFor:withIdentifier:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__53-[PNTelemetry startLatencyMeasureFor:withIdentifier:]_block_invoke
+__42-[PNTelemetry operationsLatencyForRequest]_block_invoke_2
+__42-[PNTelemetry operationsLatencyForRequest]_block_invoke
+-[PNUnsubscribeChannelsOrGroupsAPICallBuilder withPresence]
+___59-[PNUnsubscribeChannelsOrGroupsAPICallBuilder withPresence]_block_invoke
+-[PNUnsubscribeChannelsOrGroupsAPICallBuilder perform]
+___54-[PNUnsubscribeChannelsOrGroupsAPICallBuilder perform]_block_invoke
+___copy_helper_block_.5
+___destroy_helper_block_.6
+___block_descriptor_tmp.8
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Subscribe/PNUnsubscribeChannelsOrGroupsAPICallBuilder.m
+__54-[PNUnsubscribeChannelsOrGroupsAPICallBuilder perform]_block_invoke
+__59-[PNUnsubscribeChannelsOrGroupsAPICallBuilder withPresence]_block_invoke
+-[PNPublishAPICallBuilder channel]
+___34-[PNPublishAPICallBuilder channel]_block_invoke
+-[PNPublishAPICallBuilder message]
+___34-[PNPublishAPICallBuilder message]_block_invoke
+___copy_helper_block_.1
+___destroy_helper_block_.2
+-[PNPublishAPICallBuilder metadata]
+___35-[PNPublishAPICallBuilder metadata]_block_invoke
+-[PNPublishAPICallBuilder shouldStore]
+___38-[PNPublishAPICallBuilder shouldStore]_block_invoke
+___copy_helper_block_.11
+___destroy_helper_block_.12
+-[PNPublishAPICallBuilder ttl]
+___30-[PNPublishAPICallBuilder ttl]_block_invoke
+___copy_helper_block_.17
+___destroy_helper_block_.18
+-[PNPublishAPICallBuilder compress]
+___35-[PNPublishAPICallBuilder compress]_block_invoke
+___copy_helper_block_.21
+___destroy_helper_block_.22
+-[PNPublishAPICallBuilder replicate]
+___36-[PNPublishAPICallBuilder replicate]_block_invoke
+___copy_helper_block_.24
+___destroy_helper_block_.25
+-[PNPublishAPICallBuilder payloads]
+___35-[PNPublishAPICallBuilder payloads]_block_invoke
+___copy_helper_block_.27
+___destroy_helper_block_.28
+-[PNPublishAPICallBuilder performWithCompletion]
+___48-[PNPublishAPICallBuilder performWithCompletion]_block_invoke
+___copy_helper_block_.32
+___destroy_helper_block_.33
+___block_descriptor_tmp.4
+___block_descriptor_tmp.14
+___block_descriptor_tmp.20
+___block_descriptor_tmp.23
+___block_descriptor_tmp.26
+___block_descriptor_tmp.29
+___block_descriptor_tmp.35
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Publish/PNPublishAPICallBuilder.m
+__48-[PNPublishAPICallBuilder performWithCompletion]_block_invoke
+__35-[PNPublishAPICallBuilder payloads]_block_invoke
+__36-[PNPublishAPICallBuilder replicate]_block_invoke
+__35-[PNPublishAPICallBuilder compress]_block_invoke
+__30-[PNPublishAPICallBuilder ttl]_block_invoke
+__38-[PNPublishAPICallBuilder shouldStore]_block_invoke
+__35-[PNPublishAPICallBuilder metadata]_block_invoke
+__34-[PNPublishAPICallBuilder message]_block_invoke
+__34-[PNPublishAPICallBuilder channel]_block_invoke
+-[PNPresenceChannelHereNowData uuids]
+-[PNPresenceChannelHereNowData occupancy]
+-[PNPresenceChannelHereNowResult data]
+-[PNPresenceChannelHereNowResult setData:]
+-[PNPresenceChannelHereNowResult .cxx_destruct]
+_OBJC_IVAR_$_PNPresenceChannelHereNowResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNPresenceChannelHereNowResult.m
++[PNPushNotificationsAuditParser operations]
++[PNPushNotificationsAuditParser requireAdditionalData]
++[PNPushNotificationsAuditParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNPushNotificationsAuditParser.m
++[PNAPNSAPICallBuilder initialize]
+-[PNAPNSAPICallBuilder enable]
+___30-[PNAPNSAPICallBuilder enable]_block_invoke
+-[PNAPNSAPICallBuilder disable]
+___31-[PNAPNSAPICallBuilder disable]_block_invoke
+___copy_helper_block_.10
+___destroy_helper_block_.11
+-[PNAPNSAPICallBuilder audit]
+___29-[PNAPNSAPICallBuilder audit]_block_invoke
+___copy_helper_block_.13
+___destroy_helper_block_.14
+___block_descriptor_tmp.12
+___block_descriptor_tmp.16
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/APNS/PNAPNSAPICallBuilder.m
+__29-[PNAPNSAPICallBuilder audit]_block_invoke
+__31-[PNAPNSAPICallBuilder disable]_block_invoke
+__30-[PNAPNSAPICallBuilder enable]_block_invoke
+-[PNPresenceGlobalHereNowData channels]
+-[PNPresenceGlobalHereNowData totalChannels]
+-[PNPresenceGlobalHereNowData totalOccupancy]
+-[PNPresenceGlobalHereNowResult data]
+-[PNPresenceGlobalHereNowResult setData:]
+-[PNPresenceGlobalHereNowResult .cxx_destruct]
+_OBJC_IVAR_$_PNPresenceGlobalHereNowResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNPresenceGlobalHereNowResult.m
+-[PNChannelGroupChannelsData channels]
+-[PNChannelGroupChannelsResult data]
+-[PNChannelGroupChannelsResult setData:]
+-[PNChannelGroupChannelsResult .cxx_destruct]
+_OBJC_IVAR_$_PNChannelGroupChannelsResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNChannelGroupChannelsResult.m
+-[PNPresenceChannelHereNowAPICallBuilder verbosity]
+___51-[PNPresenceChannelHereNowAPICallBuilder verbosity]_block_invoke
+-[PNPresenceChannelHereNowAPICallBuilder performWithCompletion]
+___63-[PNPresenceChannelHereNowAPICallBuilder performWithCompletion]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Presence/PNPresenceChannelHereNowAPICallBuilder.m
+__63-[PNPresenceChannelHereNowAPICallBuilder performWithCompletion]_block_invoke
+__51-[PNPresenceChannelHereNowAPICallBuilder verbosity]_block_invoke
++[PNPresenceHereNowAPICallBuilder initialize]
+-[PNPresenceHereNowAPICallBuilder channel]
+___42-[PNPresenceHereNowAPICallBuilder channel]_block_invoke
+-[PNPresenceHereNowAPICallBuilder channelGroup]
+___47-[PNPresenceHereNowAPICallBuilder channelGroup]_block_invoke
+-[PNPresenceHereNowAPICallBuilder verbosity]
+___44-[PNPresenceHereNowAPICallBuilder verbosity]_block_invoke
+-[PNPresenceHereNowAPICallBuilder performWithCompletion]
+___56-[PNPresenceHereNowAPICallBuilder performWithCompletion]_block_invoke
+___copy_helper_block_.23
+___destroy_helper_block_.24
+___block_descriptor_tmp.13
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Presence/PNPresenceHereNowAPICallBuilder.m
+__56-[PNPresenceHereNowAPICallBuilder performWithCompletion]_block_invoke
+__44-[PNPresenceHereNowAPICallBuilder verbosity]_block_invoke
+__47-[PNPresenceHereNowAPICallBuilder channelGroup]_block_invoke
+__42-[PNPresenceHereNowAPICallBuilder channel]_block_invoke
++[PNStateAPICallBuilder initialize]
+-[PNStateAPICallBuilder set]
+___28-[PNStateAPICallBuilder set]_block_invoke
+-[PNStateAPICallBuilder audit]
+___30-[PNStateAPICallBuilder audit]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/State/PNStateAPICallBuilder.m
+__30-[PNStateAPICallBuilder audit]_block_invoke
+__28-[PNStateAPICallBuilder set]_block_invoke
++[PNStreamAPICallBuilder initialize]
+-[PNStreamAPICallBuilder add]
+___29-[PNStreamAPICallBuilder add]_block_invoke
+-[PNStreamAPICallBuilder remove]
+___32-[PNStreamAPICallBuilder remove]_block_invoke
+-[PNStreamAPICallBuilder audit]
+___31-[PNStreamAPICallBuilder audit]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Stream/PNStreamAPICallBuilder.m
+__31-[PNStreamAPICallBuilder audit]_block_invoke
+__32-[PNStreamAPICallBuilder remove]_block_invoke
+__29-[PNStreamAPICallBuilder add]_block_invoke
++[PNChannelGroupAuditionParser operations]
++[PNChannelGroupAuditionParser requireAdditionalData]
++[PNChannelGroupAuditionParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNChannelGroupAuditionParser.m
+-[PNAPNSEnabledChannelsData channels]
+-[PNAPNSEnabledChannelsResult data]
+-[PNAPNSEnabledChannelsResult setData:]
+-[PNAPNSEnabledChannelsResult .cxx_destruct]
+_OBJC_IVAR_$_PNAPNSEnabledChannelsResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNAPNSEnabledChannelsResult.m
+-[PNNetworkResponseSerializer init]
+-[PNNetworkResponseSerializer serializedResponse:withData:error:]
+-[PNNetworkResponseSerializer getProcessingError:ifUnableToHandleResponse:withData:]
+-[PNNetworkResponseSerializer expectedMIMETtypes]
+-[PNNetworkResponseSerializer setExpectedMIMETtypes:]
+-[PNNetworkResponseSerializer .cxx_destruct]
+_OBJC_IVAR_$_PNNetworkResponseSerializer._expectedMIMETtypes
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/PNNetworkResponseSerializer.m
+-[PNPublishSizeAPICallBuilder channel]
+___38-[PNPublishSizeAPICallBuilder channel]_block_invoke
+-[PNPublishSizeAPICallBuilder message]
+___38-[PNPublishSizeAPICallBuilder message]_block_invoke
+-[PNPublishSizeAPICallBuilder metadata]
+___39-[PNPublishSizeAPICallBuilder metadata]_block_invoke
+-[PNPublishSizeAPICallBuilder shouldStore]
+___42-[PNPublishSizeAPICallBuilder shouldStore]_block_invoke
+-[PNPublishSizeAPICallBuilder ttl]
+___34-[PNPublishSizeAPICallBuilder ttl]_block_invoke
+-[PNPublishSizeAPICallBuilder compress]
+___39-[PNPublishSizeAPICallBuilder compress]_block_invoke
+-[PNPublishSizeAPICallBuilder replicate]
+___40-[PNPublishSizeAPICallBuilder replicate]_block_invoke
+-[PNPublishSizeAPICallBuilder performWithCompletion]
+___52-[PNPublishSizeAPICallBuilder performWithCompletion]_block_invoke
+___copy_helper_block_.29
+___destroy_helper_block_.30
+___block_descriptor_tmp.32
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Publish/PNPublishSizeAPICallBuilder.m
+__52-[PNPublishSizeAPICallBuilder performWithCompletion]_block_invoke
+__40-[PNPublishSizeAPICallBuilder replicate]_block_invoke
+__39-[PNPublishSizeAPICallBuilder compress]_block_invoke
+__34-[PNPublishSizeAPICallBuilder ttl]_block_invoke
+__42-[PNPublishSizeAPICallBuilder shouldStore]_block_invoke
+__39-[PNPublishSizeAPICallBuilder metadata]_block_invoke
+__38-[PNPublishSizeAPICallBuilder message]_block_invoke
+__38-[PNPublishSizeAPICallBuilder channel]_block_invoke
++[PNUnsubscribeAPICallBuilder initialize]
+-[PNUnsubscribeAPICallBuilder channels]
+___39-[PNUnsubscribeAPICallBuilder channels]_block_invoke
+-[PNUnsubscribeAPICallBuilder channelGroups]
+___44-[PNUnsubscribeAPICallBuilder channelGroups]_block_invoke
+___copy_helper_block_.9
+___destroy_helper_block_.10
+-[PNUnsubscribeAPICallBuilder presenceChannels]
+___47-[PNUnsubscribeAPICallBuilder presenceChannels]_block_invoke
+___copy_helper_block_.12
+___destroy_helper_block_.13
+-[PNUnsubscribeAPICallBuilder perform]
+___38-[PNUnsubscribeAPICallBuilder perform]_block_invoke
+___copy_helper_block_.18
+___destroy_helper_block_.19
+___block_descriptor_tmp.11
+___block_descriptor_tmp.15
+___block_descriptor_tmp.21
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Subscribe/PNUnsubscribeAPICallBuilder.m
+__38-[PNUnsubscribeAPICallBuilder perform]_block_invoke
+__47-[PNUnsubscribeAPICallBuilder presenceChannels]_block_invoke
+__44-[PNUnsubscribeAPICallBuilder channelGroups]_block_invoke
+__39-[PNUnsubscribeAPICallBuilder channels]_block_invoke
+-[PNChannelClientStateData state]
+-[PNChannelClientStateResult data]
+-[PNChannelClientStateResult setData:]
+-[PNChannelClientStateResult .cxx_destruct]
+_OBJC_IVAR_$_PNChannelClientStateResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNChannelClientStateResult.m
+-[PNClientStateUpdateStatus data]
+-[PNClientStateUpdateStatus setData:]
+-[PNClientStateUpdateStatus .cxx_destruct]
+_OBJC_IVAR_$_PNClientStateUpdateStatus._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNClientStateUpdateStatus.m
++[PNPresenceWhereNowParser operations]
++[PNPresenceWhereNowParser requireAdditionalData]
++[PNPresenceWhereNowParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNPresenceWhereNowParser.m
+-[PNPresenceWhereNowData channels]
+-[PNPresenceWhereNowResult data]
+-[PNPresenceWhereNowResult setData:]
+-[PNPresenceWhereNowResult .cxx_destruct]
+_OBJC_IVAR_$_PNPresenceWhereNowResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNPresenceWhereNowResult.m
++[PNPresenceHereNowParser operations]
++[PNPresenceHereNowParser requireAdditionalData]
++[PNPresenceHereNowParser parsedServiceResponse:]
++[PNPresenceHereNowParser uuidsData:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNPresenceHereNowParser.m
++[PNMessagePublishParser operations]
++[PNMessagePublishParser requireAdditionalData]
++[PNMessagePublishParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNMessagePublishParser.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNAcknowledgmentStatus.m
+-[PNTimeAPICallBuilder performWithCompletion]
+___45-[PNTimeAPICallBuilder performWithCompletion]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Time/PNTimeAPICallBuilder.m
+__45-[PNTimeAPICallBuilder performWithCompletion]_block_invoke
+-[PNChannelGroupsData groups]
+-[PNChannelGroupsResult data]
+-[PNChannelGroupsResult setData:]
+-[PNChannelGroupsResult .cxx_destruct]
+_OBJC_IVAR_$_PNChannelGroupsResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNChannelGroupsResult.m
++[PNEnvelopeInformation envelopeInformationWithPayload:]
+-[PNEnvelopeInformation initWithPayload:]
+-[PNEnvelopeInformation shouldEatAfterReading]
+-[PNEnvelopeInformation dictionaryRepresentation]
+-[PNEnvelopeInformation stringifiedRepresentation]
+-[PNEnvelopeInformation debugDescription]
+-[PNEnvelopeInformation shardIdentifier]
+-[PNEnvelopeInformation setShardIdentifier:]
+-[PNEnvelopeInformation debugFlags]
+-[PNEnvelopeInformation setDebugFlags:]
+-[PNEnvelopeInformation senderIdentifier]
+-[PNEnvelopeInformation setSenderIdentifier:]
+-[PNEnvelopeInformation sequenceNumber]
+-[PNEnvelopeInformation setSequenceNumber:]
+-[PNEnvelopeInformation subscribeKey]
+-[PNEnvelopeInformation setSubscribeKey:]
+-[PNEnvelopeInformation replicationMap]
+-[PNEnvelopeInformation setReplicationMap:]
+-[PNEnvelopeInformation metadata]
+-[PNEnvelopeInformation setMetadata:]
+-[PNEnvelopeInformation waypoints]
+-[PNEnvelopeInformation setWaypoints:]
+-[PNEnvelopeInformation eatAfterReading]
+-[PNEnvelopeInformation setEatAfterReading:]
+-[PNEnvelopeInformation .cxx_destruct]
+_OBJC_IVAR_$_PNEnvelopeInformation._shardIdentifier
+_OBJC_IVAR_$_PNEnvelopeInformation._debugFlags
+_OBJC_IVAR_$_PNEnvelopeInformation._senderIdentifier
+_OBJC_IVAR_$_PNEnvelopeInformation._sequenceNumber
+_OBJC_IVAR_$_PNEnvelopeInformation._subscribeKey
+_OBJC_IVAR_$_PNEnvelopeInformation._replicationMap
+_OBJC_IVAR_$_PNEnvelopeInformation._eatAfterReading
+_OBJC_IVAR_$_PNEnvelopeInformation._metadata
+_OBJC_IVAR_$_PNEnvelopeInformation._waypoints
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/PNEnvelopeInformation.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/PNEnvelopeInformation.h
+-[PNLLogFileInformation attributes]
+___35-[PNLLogFileInformation attributes]_block_invoke
+-[PNLLogFileInformation creationDate]
+-[PNLLogFileInformation modificationDate]
+-[PNLLogFileInformation size]
+-[PNLLogFileInformation isArchived]
+-[PNLLogFileInformation setArchived:]
++[PNLLogFileInformation informationForFileAtPath:]
+-[PNLLogFileInformation initForFileAtPath:]
+-[PNLLogFileInformation isEqual:]
+-[PNLLogFileInformation excludeFromBackup]
+-[PNLLogFileInformation hasExtendedAttribute:]
+-[PNLLogFileInformation setAttribute:withName:]
+-[PNLLogFileInformation path]
+-[PNLLogFileInformation setPath:]
+-[PNLLogFileInformation name]
+-[PNLLogFileInformation setName:]
+-[PNLLogFileInformation extension]
+-[PNLLogFileInformation setExtension:]
+-[PNLLogFileInformation setSize:]
+-[PNLLogFileInformation setAttributes:]
+-[PNLLogFileInformation accessLock]
+-[PNLLogFileInformation setAccessLock:]
+-[PNLLogFileInformation .cxx_destruct]
+_OBJC_IVAR_$_PNLLogFileInformation._accessLock
+_OBJC_IVAR_$_PNLLogFileInformation._attributes
+_OBJC_IVAR_$_PNLLogFileInformation._size
+_OBJC_IVAR_$_PNLLogFileInformation._path
+_OBJC_IVAR_$_PNLLogFileInformation._name
+_OBJC_IVAR_$_PNLLogFileInformation._extension
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Logger/Data/PNLLogFileInformation.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Logger/Data/PNLLogFileInformation.h
+__35-[PNLLogFileInformation attributes]_block_invoke
+-[PNAPNSAuditAPICallBuilder token]
+___34-[PNAPNSAuditAPICallBuilder token]_block_invoke
+-[PNAPNSAuditAPICallBuilder performWithCompletion]
+___50-[PNAPNSAuditAPICallBuilder performWithCompletion]_block_invoke
+___copy_helper_block_.3
+___destroy_helper_block_.4
+___block_descriptor_tmp.6
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/APNS/PNAPNSAuditAPICallBuilder.m
+__50-[PNAPNSAuditAPICallBuilder performWithCompletion]_block_invoke
+__34-[PNAPNSAuditAPICallBuilder token]_block_invoke
++[PNClientStateParser operations]
++[PNClientStateParser requireAdditionalData]
++[PNClientStateParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNClientStateParser.m
+-[PNPublishSequence sequenceNumber]
+___35-[PNPublishSequence sequenceNumber]_block_invoke
+-[PNPublishSequence nextSequenceNumber:]
+___40-[PNPublishSequence nextSequenceNumber:]_block_invoke
+___copy_helper_block_.6
+___destroy_helper_block_.7
++[PNPublishSequence sequenceForClient:]
++[PNPublishSequence sequenceManagers]
+___37+[PNPublishSequence sequenceManagers]_block_invoke
+-[PNPublishSequence initForClient:]
+-[PNPublishSequence reset]
+___26-[PNPublishSequence reset]_block_invoke
+___copy_helper_block_.36
+___destroy_helper_block_.37
+-[PNPublishSequence loadFromPersistentStorage]
+___46-[PNPublishSequence loadFromPersistentStorage]_block_invoke
+___46-[PNPublishSequence loadFromPersistentStorage]_block_invoke_2
+___46-[PNPublishSequence loadFromPersistentStorage]_block_invoke_3
+___copy_helper_block_.54
+___destroy_helper_block_.55
+___copy_helper_block_.60
+___destroy_helper_block_.61
+___copy_helper_block_.66
+___destroy_helper_block_.67
+-[PNPublishSequence saveToPersistentStorage]
+___44-[PNPublishSequence saveToPersistentStorage]_block_invoke
+___44-[PNPublishSequence saveToPersistentStorage]_block_invoke_2
+___44-[PNPublishSequence saveToPersistentStorage]_block_invoke_3
+___copy_helper_block_.74
+___destroy_helper_block_.75
+___copy_helper_block_.77
+___destroy_helper_block_.78
+___copy_helper_block_.80
+___destroy_helper_block_.81
+-[PNPublishSequence cleanUpIfRequired]
+___38-[PNPublishSequence cleanUpIfRequired]_block_invoke
+___38-[PNPublishSequence cleanUpIfRequired]_block_invoke_2
+___38-[PNPublishSequence cleanUpIfRequired]_block_invoke_3
+___copy_helper_block_.87
+___destroy_helper_block_.88
+___38-[PNPublishSequence cleanUpIfRequired]_block_invoke.93
+___copy_helper_block_.94
+___destroy_helper_block_.95
+___copy_helper_block_.97
+___destroy_helper_block_.98
+___copy_helper_block_.100
+___destroy_helper_block_.101
+-[PNPublishSequence handleContextTransition:]
+-[PNPublishSequence subscribeOnNotifications]
+-[PNPublishSequence client]
+-[PNPublishSequence setClient:]
+-[PNPublishSequence setSequenceNumber:]
+-[PNPublishSequence publishKey]
+-[PNPublishSequence setPublishKey:]
+-[PNPublishSequence .cxx_destruct]
+_OBJC_IVAR_$_PNPublishSequence._lock
+_OBJC_IVAR_$_PNPublishSequence._sequenceNumber
+_sequenceManagers._sharedSequenceManagers
+_sequenceManagers.onceToken
+___block_descriptor_tmp.25
+_OBJC_IVAR_$_PNPublishSequence._client
+_OBJC_IVAR_$_PNPublishSequence._publishKey
+___block_descriptor_tmp.38
+_publishSequenceKeychainAccessLock
+___block_descriptor_tmp.57
+___block_descriptor_tmp.63
+___block_descriptor_tmp.69
+___block_descriptor_tmp.76
+___block_descriptor_tmp.79
+___block_descriptor_tmp.82
+___block_descriptor_tmp.96
+___block_descriptor_tmp.99
+___block_descriptor_tmp.102
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Managers/PNPublishSequence.m
+__38-[PNPublishSequence cleanUpIfRequired]_block_invoke.93
+__38-[PNPublishSequence cleanUpIfRequired]_block_invoke_3
+__38-[PNPublishSequence cleanUpIfRequired]_block_invoke_2
+__38-[PNPublishSequence cleanUpIfRequired]_block_invoke
+__44-[PNPublishSequence saveToPersistentStorage]_block_invoke_3
+__44-[PNPublishSequence saveToPersistentStorage]_block_invoke_2
+__44-[PNPublishSequence saveToPersistentStorage]_block_invoke
+__46-[PNPublishSequence loadFromPersistentStorage]_block_invoke_3
+__46-[PNPublishSequence loadFromPersistentStorage]_block_invoke_2
+__46-[PNPublishSequence loadFromPersistentStorage]_block_invoke
+__26-[PNPublishSequence reset]_block_invoke
+__37+[PNPublishSequence sequenceManagers]_block_invoke
+__40-[PNPublishSequence nextSequenceNumber:]_block_invoke
+__35-[PNPublishSequence sequenceNumber]_block_invoke
+-[PNClientInformation version]
+-[PNClientInformation commit]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/PNClientInformation.m
+-[PNPresenceDetailsData timetoken]
+-[PNPresenceDetailsData uuid]
+-[PNPresenceDetailsData join]
+-[PNPresenceDetailsData leave]
+-[PNPresenceDetailsData timeout]
+-[PNPresenceDetailsData occupancy]
+-[PNPresenceDetailsData state]
+-[PNPresenceEventData presenceEvent]
+-[PNPresenceEventData presence]
+-[PNMessageData publisher]
+-[PNMessageData message]
+-[PNMessageResult data]
+-[PNMessageResult setData:]
+-[PNMessageResult .cxx_destruct]
+-[PNPresenceEventResult data]
+-[PNPresenceEventResult setData:]
+-[PNPresenceEventResult .cxx_destruct]
+_OBJC_IVAR_$_PNMessageResult._data
+_OBJC_IVAR_$_PNPresenceEventResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNSubscriberResults.m
+-[PNRequestParameters setHTTPMethod:]
+___37-[PNRequestParameters setHTTPMethod:]_block_invoke
+-[PNRequestParameters pathComponents]
+-[PNRequestParameters query]
+-[PNRequestParameters init]
+-[PNRequestParameters addPathComponent:forPlaceholder:]
+-[PNRequestParameters removePathComponentForPlaceholder:]
+-[PNRequestParameters addPathComponents:]
+-[PNRequestParameters removePathComponents:]
+-[PNRequestParameters addQueryParameter:forFieldName:]
+-[PNRequestParameters removeQueryParameterWithFieldName:]
+-[PNRequestParameters addQueryParameters:]
+-[PNRequestParameters removeQueryParameters:]
+-[PNRequestParameters HTTPMethod]
+-[PNRequestParameters resourcePathComponents]
+-[PNRequestParameters setResourcePathComponents:]
+-[PNRequestParameters queryFields]
+-[PNRequestParameters setQueryFields:]
+-[PNRequestParameters .cxx_destruct]
+_setHTTPMethod:._allowedHTTPMethods
+_setHTTPMethod:.onceToken
+_OBJC_IVAR_$_PNRequestParameters._HTTPMethod
+_OBJC_IVAR_$_PNRequestParameters._resourcePathComponents
+_OBJC_IVAR_$_PNRequestParameters._queryFields
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/PNRequestParameters.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/PNRequestParameters.h
+__37-[PNRequestParameters setHTTPMethod:]_block_invoke
+-[PubNub(ChannelGroup) stream]
+___30-[PubNub(ChannelGroup) stream]_block_invoke
+___30-[PubNub(ChannelGroup) stream]_block_invoke.22
+-[PubNub(ChannelGroup) channelsForGroup:withCompletion:]
+-[PubNub(ChannelGroup) channelsForGroup:withQueryParameters:completion:]
+___72-[PubNub(ChannelGroup) channelsForGroup:withQueryParameters:completion:]_block_invoke
+___72-[PubNub(ChannelGroup) channelsForGroup:withQueryParameters:completion:]_block_invoke_2
+___copy_helper_block_.51
+___destroy_helper_block_.52
+___copy_helper_block_.59
+___destroy_helper_block_.60
+-[PubNub(ChannelGroup) addChannels:toGroup:withCompletion:]
+-[PubNub(ChannelGroup) removeChannels:fromGroup:withCompletion:]
+-[PubNub(ChannelGroup) removeChannelsFromGroup:withCompletion:]
+-[PubNub(ChannelGroup) add:channels:toGroup:queryParameters:withCompletion:]
+___76-[PubNub(ChannelGroup) add:channels:toGroup:queryParameters:withCompletion:]_block_invoke
+___76-[PubNub(ChannelGroup) add:channels:toGroup:queryParameters:withCompletion:]_block_invoke_2
+___copy_helper_block_.90
+___destroy_helper_block_.91
+___copy_helper_block_.93
+___destroy_helper_block_.94
+___block_descriptor_tmp.54
+___block_descriptor_tmp.62
+___block_descriptor_tmp.92
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+ChannelGroup.m
+__76-[PubNub(ChannelGroup) add:channels:toGroup:queryParameters:withCompletion:]_block_invoke_2
+__76-[PubNub(ChannelGroup) add:channels:toGroup:queryParameters:withCompletion:]_block_invoke
+__72-[PubNub(ChannelGroup) channelsForGroup:withQueryParameters:completion:]_block_invoke_2
+__72-[PubNub(ChannelGroup) channelsForGroup:withQueryParameters:completion:]_block_invoke
+__30-[PubNub(ChannelGroup) stream]_block_invoke.22
+__30-[PubNub(ChannelGroup) stream]_block_invoke
++[PNHeartbeatParser operations]
++[PNHeartbeatParser requireAdditionalData]
++[PNHeartbeatParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNHeartbeatParser.m
++[PNSubscribeParser operations]
++[PNSubscribeParser requireAdditionalData]
++[PNSubscribeParser parsedServiceResponse:withData:]
++[PNSubscribeParser eventFromData:withAdditionalParserData:]
++[PNSubscribeParser messageFromData:withAdditionalParserData:]
++[PNSubscribeParser presenceFromData:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNSubscribeParser.m
+-[PNSubscriberData channel]
+-[PNSubscriberData subscription]
+-[PNSubscriberData timetoken]
+-[PNSubscriberData region]
+-[PNSubscriberData userMetadata]
+-[PNSubscriberData envelope]
+-[PNSubscribeStatus data]
+-[PNSubscribeStatus setData:]
+-[PNSubscribeStatus .cxx_destruct]
+_OBJC_IVAR_$_PNSubscribeStatus._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNSubscribeStatus.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNSubscribeStatus+Private.h
+-[PubNub(Subscribe) channels]
+-[PubNub(Subscribe) channelGroups]
+-[PubNub(Subscribe) presenceChannels]
+-[PubNub(Subscribe) isSubscribedOn:]
+-[PubNub(Subscribe) addListener:]
+-[PubNub(Subscribe) removeListener:]
+-[PubNub(Subscribe) filterExpression]
+-[PubNub(Subscribe) setFilterExpression:]
+-[PubNub(Subscribe) subscribe]
+___30-[PubNub(Subscribe) subscribe]_block_invoke
+___30-[PubNub(Subscribe) subscribe]_block_invoke.44
+___copy_helper_block_.45
+___destroy_helper_block_.46
+-[PubNub(Subscribe) unsubscribe]
+___32-[PubNub(Subscribe) unsubscribe]_block_invoke
+___copy_helper_block_.56
+___destroy_helper_block_.57
+___32-[PubNub(Subscribe) unsubscribe]_block_invoke.59
+-[PubNub(Subscribe) subscribeToChannels:withPresence:]
+-[PubNub(Subscribe) subscribeToChannels:withPresence:usingTimeToken:]
+-[PubNub(Subscribe) subscribeToChannels:withPresence:clientState:]
+-[PubNub(Subscribe) subscribeToChannels:withPresence:usingTimeToken:clientState:]
+-[PubNub(Subscribe) subscribeToChannelGroups:withPresence:]
+-[PubNub(Subscribe) subscribeToChannelGroups:withPresence:usingTimeToken:]
+-[PubNub(Subscribe) subscribeToChannelGroups:withPresence:clientState:]
+-[PubNub(Subscribe) subscribeToChannelGroups:withPresence:usingTimeToken:clientState:]
+-[PubNub(Subscribe) subscribeToChannels:groups:withPresence:usingTimeToken:clientState:]
+-[PubNub(Subscribe) subscribeToChannels:groups:withPresence:usingTimeToken:clientState:queryParameters:]
+-[PubNub(Subscribe) subscribeToPresenceChannels:]
+-[PubNub(Subscribe) subscribeToPresenceChannels:withQueryParameters:]
+-[PubNub(Subscribe) unsubscribeFromChannels:withPresence:]
+-[PubNub(Subscribe) unsubscribeFromChannelGroups:withPresence:]
+-[PubNub(Subscribe) unsubscribeFromChannels:groups:withPresence:queryParameters:completion:]
+___92-[PubNub(Subscribe) unsubscribeFromChannels:groups:withPresence:queryParameters:completion:]_block_invoke
+-[PubNub(Subscribe) unsubscribeFromPresenceChannels:]
+-[PubNub(Subscribe) unsubscribeFromPresenceChannels:withQueryParameters:]
+-[PubNub(Subscribe) unsubscribeFromAll]
+-[PubNub(Subscribe) unsubscribeFromAllWithCompletion:]
+-[PubNub(Subscribe) unsubscribeFromAllWithQueryParameters:completion:]
+-[PubNub(Subscribe) cancelSubscribeOperations]
+___block_descriptor_tmp.48
+___block_descriptor_tmp.58
+___block_descriptor_tmp.100
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+Subscribe.m
+__92-[PubNub(Subscribe) unsubscribeFromChannels:groups:withPresence:queryParameters:completion:]_block_invoke
+__32-[PubNub(Subscribe) unsubscribe]_block_invoke.59
+__32-[PubNub(Subscribe) unsubscribe]_block_invoke
+__30-[PubNub(Subscribe) subscribe]_block_invoke.44
+__30-[PubNub(Subscribe) subscribe]_block_invoke
+-[PNDeleteMessageAPICallBuilder channel]
+___40-[PNDeleteMessageAPICallBuilder channel]_block_invoke
+-[PNDeleteMessageAPICallBuilder start]
+___38-[PNDeleteMessageAPICallBuilder start]_block_invoke
+-[PNDeleteMessageAPICallBuilder end]
+___36-[PNDeleteMessageAPICallBuilder end]_block_invoke
+-[PNDeleteMessageAPICallBuilder performWithCompletion]
+___54-[PNDeleteMessageAPICallBuilder performWithCompletion]_block_invoke
+___block_descriptor_tmp.7
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/History/PNDeleteMessageAPICallBuilder.m
+__54-[PNDeleteMessageAPICallBuilder performWithCompletion]_block_invoke
+__36-[PNDeleteMessageAPICallBuilder end]_block_invoke
+__38-[PNDeleteMessageAPICallBuilder start]_block_invoke
+__40-[PNDeleteMessageAPICallBuilder channel]_block_invoke
+-[PubNub(Presence) presence]
+___28-[PubNub(Presence) presence]_block_invoke
+___28-[PubNub(Presence) presence]_block_invoke.166
+___copy_helper_block_.167
+___destroy_helper_block_.168
+-[PubNub(Presence) hereNowWithCompletion:]
+-[PubNub(Presence) hereNowWithVerbosity:completion:]
+-[PubNub(Presence) hereNowForChannel:withCompletion:]
+-[PubNub(Presence) hereNowForChannel:withVerbosity:completion:]
+-[PubNub(Presence) hereNowForChannelGroup:withCompletion:]
+-[PubNub(Presence) hereNowForChannelGroup:withVerbosity:completion:]
+-[PubNub(Presence) hereNowWithVerbosity:forObject:withOperationType:queryParameters:completionBlock:]
+___101-[PubNub(Presence) hereNowWithVerbosity:forObject:withOperationType:queryParameters:completionBlock:]_block_invoke
+___101-[PubNub(Presence) hereNowWithVerbosity:forObject:withOperationType:queryParameters:completionBlock:]_block_invoke_2
+___copy_helper_block_.221
+___destroy_helper_block_.222
+___copy_helper_block_.229
+___destroy_helper_block_.230
+-[PubNub(Presence) whereNowUUID:withCompletion:]
+-[PubNub(Presence) whereNowUUID:withQueryParameters:completion:]
+___64-[PubNub(Presence) whereNowUUID:withQueryParameters:completion:]_block_invoke
+___64-[PubNub(Presence) whereNowUUID:withQueryParameters:completion:]_block_invoke_2
+___copy_helper_block_.239
+___destroy_helper_block_.240
+___copy_helper_block_.242
+___destroy_helper_block_.243
+-[PubNub(Presence) setConnected:forChannels:channelGroups:withState:completionBlock:]
+___85-[PubNub(Presence) setConnected:forChannels:channelGroups:withState:completionBlock:]_block_invoke
+___copy_helper_block_.282
+___destroy_helper_block_.283
+-[PubNub(Presence) heartbeatWithCompletion:]
+___44-[PubNub(Presence) heartbeatWithCompletion:]_block_invoke
+___44-[PubNub(Presence) heartbeatWithCompletion:]_block_invoke_2
+___copy_helper_block_.335
+___destroy_helper_block_.336
+___copy_helper_block_.339
+___destroy_helper_block_.340
+-[PubNub(Presence) channelsForHeartbeat]
+-[PubNub(Presence) channelGroupsForHeartbeat]
+_PNHereNowDataStrings
+___block_descriptor_tmp.170
+___block_descriptor_tmp.224
+___block_descriptor_tmp.232
+___block_descriptor_tmp.241
+___block_descriptor_tmp.244
+___block_descriptor_tmp.285
+___block_descriptor_tmp.338
+___block_descriptor_tmp.341
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+Presence.m
+__44-[PubNub(Presence) heartbeatWithCompletion:]_block_invoke_2
+__44-[PubNub(Presence) heartbeatWithCompletion:]_block_invoke
+__85-[PubNub(Presence) setConnected:forChannels:channelGroups:withState:completionBlock:]_block_invoke
+__64-[PubNub(Presence) whereNowUUID:withQueryParameters:completion:]_block_invoke_2
+__64-[PubNub(Presence) whereNowUUID:withQueryParameters:completion:]_block_invoke
+__101-[PubNub(Presence) hereNowWithVerbosity:forObject:withOperationType:queryParameters:completionBlock:]_block_invoke_2
+__101-[PubNub(Presence) hereNowWithVerbosity:forObject:withOperationType:queryParameters:completionBlock:]_block_invoke
+__28-[PubNub(Presence) presence]_block_invoke.166
+__28-[PubNub(Presence) presence]_block_invoke
+-[PNPublishData timetoken]
+-[PNPublishData information]
+-[PNPublishStatus data]
+-[PNPublishStatus setData:]
+-[PNPublishStatus .cxx_destruct]
+_OBJC_IVAR_$_PNPublishStatus._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNPublishStatus.m
++[PNPresenceAPICallBuilder initialize]
+-[PNPresenceAPICallBuilder hereNow]
+___35-[PNPresenceAPICallBuilder hereNow]_block_invoke
+-[PNPresenceAPICallBuilder whereNow]
+___36-[PNPresenceAPICallBuilder whereNow]_block_invoke
+-[PNPresenceAPICallBuilder connected]
+___37-[PNPresenceAPICallBuilder connected]_block_invoke
+___copy_helper_block_.20
+___destroy_helper_block_.21
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Presence/PNPresenceAPICallBuilder.m
+__37-[PNPresenceAPICallBuilder connected]_block_invoke
+__36-[PNPresenceAPICallBuilder whereNow]_block_invoke
+__35-[PNPresenceAPICallBuilder hereNow]_block_invoke
+-[PNHistoryAPICallBuilder channel]
+___34-[PNHistoryAPICallBuilder channel]_block_invoke
+-[PNHistoryAPICallBuilder channels]
+___35-[PNHistoryAPICallBuilder channels]_block_invoke
+-[PNHistoryAPICallBuilder start]
+___32-[PNHistoryAPICallBuilder start]_block_invoke
+-[PNHistoryAPICallBuilder end]
+___30-[PNHistoryAPICallBuilder end]_block_invoke
+-[PNHistoryAPICallBuilder limit]
+___32-[PNHistoryAPICallBuilder limit]_block_invoke
+___copy_helper_block_.14
+___destroy_helper_block_.15
+-[PNHistoryAPICallBuilder includeTimeToken]
+___43-[PNHistoryAPICallBuilder includeTimeToken]_block_invoke
+-[PNHistoryAPICallBuilder reverse]
+___34-[PNHistoryAPICallBuilder reverse]_block_invoke
+-[PNHistoryAPICallBuilder performWithCompletion]
+___48-[PNHistoryAPICallBuilder performWithCompletion]_block_invoke
+___block_descriptor_tmp.17
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/History/PNHistoryAPICallBuilder.m
+__48-[PNHistoryAPICallBuilder performWithCompletion]_block_invoke
+__34-[PNHistoryAPICallBuilder reverse]_block_invoke
+__43-[PNHistoryAPICallBuilder includeTimeToken]_block_invoke
+__32-[PNHistoryAPICallBuilder limit]_block_invoke
+__30-[PNHistoryAPICallBuilder end]_block_invoke
+__32-[PNHistoryAPICallBuilder start]_block_invoke
+__35-[PNHistoryAPICallBuilder channels]_block_invoke
+__34-[PNHistoryAPICallBuilder channel]_block_invoke
+-[PNHistoryData messages]
+-[PNHistoryData channels]
+-[PNHistoryData start]
+-[PNHistoryData end]
+-[PNHistoryResult data]
+-[PNHistoryResult setData:]
+-[PNHistoryResult .cxx_destruct]
+_OBJC_IVAR_$_PNHistoryResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNHistoryResult.m
+-[PNPresenceHeartbeatAPICallBuilder channels]
+___45-[PNPresenceHeartbeatAPICallBuilder channels]_block_invoke
+-[PNPresenceHeartbeatAPICallBuilder channelGroups]
+___50-[PNPresenceHeartbeatAPICallBuilder channelGroups]_block_invoke
+-[PNPresenceHeartbeatAPICallBuilder state]
+___42-[PNPresenceHeartbeatAPICallBuilder state]_block_invoke
+-[PNPresenceHeartbeatAPICallBuilder performWithCompletion]
+___58-[PNPresenceHeartbeatAPICallBuilder performWithCompletion]_block_invoke
+___copy_helper_block_.15
+___destroy_helper_block_.16
+___block_descriptor_tmp.18
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Presence/PNPresenceHeartbeatAPICallBuilder.m
+__58-[PNPresenceHeartbeatAPICallBuilder performWithCompletion]_block_invoke
+__42-[PNPresenceHeartbeatAPICallBuilder state]_block_invoke
+__50-[PNPresenceHeartbeatAPICallBuilder channelGroups]_block_invoke
+__45-[PNPresenceHeartbeatAPICallBuilder channels]_block_invoke
++[PNStateListener stateListenerForClient:]
+-[PNStateListener initForClient:]
+-[PNStateListener inheritStateFromListener:]
+___44-[PNStateListener inheritStateFromListener:]_block_invoke
+-[PNStateListener addListener:]
+___31-[PNStateListener addListener:]_block_invoke
+-[PNStateListener removeListener:]
+___34-[PNStateListener removeListener:]_block_invoke
+___copy_helper_block_.41
+___destroy_helper_block_.42
+-[PNStateListener removeAllListeners]
+___37-[PNStateListener removeAllListeners]_block_invoke
+___copy_helper_block_.46
+___destroy_helper_block_.47
+-[PNStateListener notifyWithBlock:]
+-[PNStateListener notifyMessage:]
+___33-[PNStateListener notifyMessage:]_block_invoke
+___copy_helper_block_.57
+___destroy_helper_block_.58
+-[PNStateListener notifyPresenceEvent:]
+___39-[PNStateListener notifyPresenceEvent:]_block_invoke
+-[PNStateListener notifyStatusChange:]
+-[PNStateListener notifyHeartbeatStatus:]
+-[PNStateListener notifyStatusObservers:]
+___41-[PNStateListener notifyStatusObservers:]_block_invoke
+___copy_helper_block_.65
+___destroy_helper_block_.66
+-[PNStateListener listenersCopyFrom:]
+___37-[PNStateListener listenersCopyFrom:]_block_invoke
+___copy_helper_block_.70
+___destroy_helper_block_.71
+-[PNStateListener client]
+-[PNStateListener setClient:]
+-[PNStateListener messageListeners]
+-[PNStateListener setMessageListeners:]
+-[PNStateListener presenceEventListeners]
+-[PNStateListener setPresenceEventListeners:]
+-[PNStateListener stateListeners]
+-[PNStateListener setStateListeners:]
+-[PNStateListener resourceAccessQueue]
+-[PNStateListener setResourceAccessQueue:]
+-[PNStateListener .cxx_destruct]
+_OBJC_IVAR_$_PNStateListener._client
+_OBJC_IVAR_$_PNStateListener._messageListeners
+_OBJC_IVAR_$_PNStateListener._presenceEventListeners
+_OBJC_IVAR_$_PNStateListener._stateListeners
+_OBJC_IVAR_$_PNStateListener._resourceAccessQueue
+___block_descriptor_tmp.43
+___block_descriptor_tmp.59
+___block_descriptor_tmp.67
+___block_descriptor_tmp.72
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Managers/PNStateListener.m
+__37-[PNStateListener listenersCopyFrom:]_block_invoke
+__41-[PNStateListener notifyStatusObservers:]_block_invoke
+__39-[PNStateListener notifyPresenceEvent:]_block_invoke
+__33-[PNStateListener notifyMessage:]_block_invoke
+__37-[PNStateListener removeAllListeners]_block_invoke
+__34-[PNStateListener removeListener:]_block_invoke
+__31-[PNStateListener addListener:]_block_invoke
+__44-[PNStateListener inheritStateFromListener:]_block_invoke
++[PNHistoryParser operations]
++[PNHistoryParser requireAdditionalData]
++[PNHistoryParser parsedServiceResponse:withData:]
+___50+[PNHistoryParser parsedServiceResponse:withData:]_block_invoke
++[PNHistoryParser processedMessagesFrom:withData:]
+___50+[PNHistoryParser processedMessagesFrom:withData:]_block_invoke
+___copy_helper_block_.104
+___destroy_helper_block_.105
+___block_descriptor_tmp.107
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNHistoryParser.m
+__50+[PNHistoryParser processedMessagesFrom:withData:]_block_invoke
+__50+[PNHistoryParser parsedServiceResponse:withData:]_block_invoke
+-[PNConfiguration setPresenceHeartbeatValue:]
++[PNConfiguration configurationWithPublishKey:subscribeKey:]
+-[PNConfiguration initWithPublishKey:subscribeKey:]
+-[PNConfiguration copyWithZone:]
+-[PNConfiguration uniqueUserIdentifier]
+___39-[PNConfiguration uniqueUserIdentifier]_block_invoke
+-[PNConfiguration uniqueDeviceIdentifier]
+___41-[PNConfiguration uniqueDeviceIdentifier]_block_invoke
+___copy_helper_block_.130
+___destroy_helper_block_.131
+-[PNConfiguration generateUniqueDeviceIdentifier]
+-[PNConfiguration origin]
+-[PNConfiguration setOrigin:]
+-[PNConfiguration publishKey]
+-[PNConfiguration setPublishKey:]
+-[PNConfiguration subscribeKey]
+-[PNConfiguration setSubscribeKey:]
+-[PNConfiguration authKey]
+-[PNConfiguration setAuthKey:]
+-[PNConfiguration uuid]
+-[PNConfiguration setUUID:]
+-[PNConfiguration cipherKey]
+-[PNConfiguration setCipherKey:]
+-[PNConfiguration deviceID]
+-[PNConfiguration setDeviceID:]
+-[PNConfiguration subscribeMaximumIdleTime]
+-[PNConfiguration setSubscribeMaximumIdleTime:]
+-[PNConfiguration nonSubscribeRequestTimeout]
+-[PNConfiguration setNonSubscribeRequestTimeout:]
+-[PNConfiguration presenceHeartbeatValue]
+-[PNConfiguration presenceHeartbeatInterval]
+-[PNConfiguration setPresenceHeartbeatInterval:]
+-[PNConfiguration heartbeatNotificationOptions]
+-[PNConfiguration setHeartbeatNotificationOptions:]
+-[PNConfiguration shouldSuppressLeaveEvents]
+-[PNConfiguration setSuppressLeaveEvents:]
+-[PNConfiguration shouldManagePresenceListManually]
+-[PNConfiguration setManagePresenceListManually:]
+-[PNConfiguration isTLSEnabled]
+-[PNConfiguration setTLSEnabled:]
+-[PNConfiguration shouldKeepTimeTokenOnListChange]
+-[PNConfiguration setKeepTimeTokenOnListChange:]
+-[PNConfiguration shouldTryCatchUpOnSubscriptionRestore]
+-[PNConfiguration setCatchUpOnSubscriptionRestore:]
+-[PNConfiguration applicationExtensionSharedGroupIdentifier]
+-[PNConfiguration setApplicationExtensionSharedGroupIdentifier:]
+-[PNConfiguration requestMessageCountThreshold]
+-[PNConfiguration setRequestMessageCountThreshold:]
+-[PNConfiguration maximumMessagesCacheSize]
+-[PNConfiguration setMaximumMessagesCacheSize:]
+-[PNConfiguration shouldStripMobilePayload]
+-[PNConfiguration setStripMobilePayload:]
+-[PNConfiguration .cxx_destruct]
+_OBJC_IVAR_$_PNConfiguration._presenceHeartbeatValue
+_OBJC_IVAR_$_PNConfiguration._presenceHeartbeatInterval
+_OBJC_IVAR_$_PNConfiguration._deviceID
+_OBJC_IVAR_$_PNConfiguration._origin
+_OBJC_IVAR_$_PNConfiguration._publishKey
+_OBJC_IVAR_$_PNConfiguration._subscribeKey
+_OBJC_IVAR_$_PNConfiguration._uuid
+_OBJC_IVAR_$_PNConfiguration._subscribeMaximumIdleTime
+_OBJC_IVAR_$_PNConfiguration._nonSubscribeRequestTimeout
+_OBJC_IVAR_$_PNConfiguration._TLSEnabled
+_OBJC_IVAR_$_PNConfiguration._heartbeatNotificationOptions
+_OBJC_IVAR_$_PNConfiguration._suppressLeaveEvents
+_OBJC_IVAR_$_PNConfiguration._managePresenceListManually
+_OBJC_IVAR_$_PNConfiguration._keepTimeTokenOnListChange
+_OBJC_IVAR_$_PNConfiguration._catchUpOnSubscriptionRestore
+_OBJC_IVAR_$_PNConfiguration._requestMessageCountThreshold
+_OBJC_IVAR_$_PNConfiguration._maximumMessagesCacheSize
+_OBJC_IVAR_$_PNConfiguration._stripMobilePayload
+___block_descriptor_tmp.132
+_OBJC_IVAR_$_PNConfiguration._authKey
+_OBJC_IVAR_$_PNConfiguration._cipherKey
+_OBJC_IVAR_$_PNConfiguration._applicationExtensionSharedGroupIdentifier
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/PNConfiguration.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/PNConfiguration.h
+__41-[PNConfiguration uniqueDeviceIdentifier]_block_invoke
+__39-[PNConfiguration uniqueUserIdentifier]_block_invoke
++[PNSubscribeAPIBuilder initialize]
+-[PNSubscribeAPIBuilder channels]
+___33-[PNSubscribeAPIBuilder channels]_block_invoke
+-[PNSubscribeAPIBuilder channelGroups]
+___38-[PNSubscribeAPIBuilder channelGroups]_block_invoke
+-[PNSubscribeAPIBuilder presenceChannels]
+___41-[PNSubscribeAPIBuilder presenceChannels]_block_invoke
+-[PNSubscribeAPIBuilder perform]
+___32-[PNSubscribeAPIBuilder perform]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Subscribe/PNSubscribeAPIBuilder.m
+__32-[PNSubscribeAPIBuilder perform]_block_invoke
+__41-[PNSubscribeAPIBuilder presenceChannels]_block_invoke
+__38-[PNSubscribeAPIBuilder channelGroups]_block_invoke
+__33-[PNSubscribeAPIBuilder channels]_block_invoke
+-[PubNub(Publish) publish]
+___26-[PubNub(Publish) publish]_block_invoke
+___26-[PubNub(Publish) publish]_block_invoke.3
+___copy_helper_block_.4
+___destroy_helper_block_.5
+-[PubNub(Publish) fire]
+___23-[PubNub(Publish) fire]_block_invoke
+___copy_helper_block_.8
+___destroy_helper_block_.9
+___23-[PubNub(Publish) fire]_block_invoke.20
+-[PubNub(Publish) size]
+___23-[PubNub(Publish) size]_block_invoke
+___copy_helper_block_.44
+___destroy_helper_block_.45
+___23-[PubNub(Publish) size]_block_invoke.47
+___copy_helper_block_.48
+___destroy_helper_block_.49
+-[PubNub(Publish) publish:toChannel:withCompletion:]
+-[PubNub(Publish) publish:toChannel:withMetadata:completion:]
+-[PubNub(Publish) publish:toChannel:compressed:withCompletion:]
+-[PubNub(Publish) publish:toChannel:compressed:withMetadata:completion:]
+-[PubNub(Publish) publish:toChannel:storeInHistory:withCompletion:]
+-[PubNub(Publish) publish:toChannel:storeInHistory:withMetadata:completion:]
+-[PubNub(Publish) publish:toChannel:storeInHistory:compressed:withCompletion:]
+-[PubNub(Publish) publish:toChannel:storeInHistory:compressed:withMetadata:completion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:withCompletion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:withMetadata:completion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:compressed:withCompletion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:compressed:withMetadata:completion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:withCompletion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:withMetadata:completion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:compressed:withCompletion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:compressed:withMetadata:completion:]
+-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:ttl:compressed:withReplication:metadata:queryParameters:completion:]
+___137-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:ttl:compressed:withReplication:metadata:queryParameters:completion:]_block_invoke
+___137-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:ttl:compressed:withReplication:metadata:queryParameters:completion:]_block_invoke_2
+___137-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:ttl:compressed:withReplication:metadata:queryParameters:completion:]_block_invoke_3
+___copy_helper_block_.129
+___destroy_helper_block_.130
+___copy_helper_block_.137
+___destroy_helper_block_.138
+___copy_helper_block_.143
+___destroy_helper_block_.144
+-[PubNub(Publish) sizeOfMessage:toChannel:withCompletion:]
+-[PubNub(Publish) sizeOfMessage:toChannel:withMetadata:completion:]
+-[PubNub(Publish) sizeOfMessage:toChannel:compressed:withCompletion:]
+-[PubNub(Publish) sizeOfMessage:toChannel:compressed:withMetadata:completion:]
+-[PubNub(Publish) sizeOfMessage:toChannel:storeInHistory:withCompletion:]
+-[PubNub(Publish) sizeOfMessage:toChannel:storeInHistory:withMetadata:completion:]
+-[PubNub(Publish) sizeOfMessage:toChannel:compressed:storeInHistory:withCompletion:]
+-[PubNub(Publish) sizeOfMessage:toChannel:compressed:storeInHistory:withMetadata:completion:]
+-[PubNub(Publish) sizeOfMessage:toChannel:compressed:storeInHistory:ttl:withReplication:metadata:queryParameters:completion:]
+___125-[PubNub(Publish) sizeOfMessage:toChannel:compressed:storeInHistory:ttl:withReplication:metadata:queryParameters:completion:]_block_invoke
+___125-[PubNub(Publish) sizeOfMessage:toChannel:compressed:storeInHistory:ttl:withReplication:metadata:queryParameters:completion:]_block_invoke_2
+___copy_helper_block_.158
+___destroy_helper_block_.159
+___copy_helper_block_.161
+___destroy_helper_block_.162
+-[PubNub(Publish) handlePublishBuilderExecutionWithFlags:parameters:]
+-[PubNub(Publish) requestParametersForMessage:toChannel:compressed:storeInHistory:ttl:replicate:metadata:sequenceNumber:queryParameters:]
+-[PubNub(Publish) mergedMessage:withMobilePushPayload:]
+-[PubNub(Publish) encryptedMessage:withCipherKey:error:]
+___block_descriptor_tmp.10
+___block_descriptor_tmp.46
+___block_descriptor_tmp.51
+___block_descriptor_tmp.140
+___block_descriptor_tmp.145
+___block_descriptor_tmp.160
+___block_descriptor_tmp.163
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+Publish.m
+__125-[PubNub(Publish) sizeOfMessage:toChannel:compressed:storeInHistory:ttl:withReplication:metadata:queryParameters:completion:]_block_invoke_2
+__125-[PubNub(Publish) sizeOfMessage:toChannel:compressed:storeInHistory:ttl:withReplication:metadata:queryParameters:completion:]_block_invoke
+__137-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:ttl:compressed:withReplication:metadata:queryParameters:completion:]_block_invoke_3
+__137-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:ttl:compressed:withReplication:metadata:queryParameters:completion:]_block_invoke_2
+__137-[PubNub(Publish) publish:toChannel:mobilePushPayload:storeInHistory:ttl:compressed:withReplication:metadata:queryParameters:completion:]_block_invoke
+__23-[PubNub(Publish) size]_block_invoke.47
+__23-[PubNub(Publish) size]_block_invoke
+__23-[PubNub(Publish) fire]_block_invoke.20
+__23-[PubNub(Publish) fire]_block_invoke
+__26-[PubNub(Publish) publish]_block_invoke.3
+__26-[PubNub(Publish) publish]_block_invoke
+-[PNStreamModificationAPICallBuilder channelGroup]
+___50-[PNStreamModificationAPICallBuilder channelGroup]_block_invoke
+-[PNStreamModificationAPICallBuilder channels]
+___46-[PNStreamModificationAPICallBuilder channels]_block_invoke
+-[PNStreamModificationAPICallBuilder performWithCompletion]
+___59-[PNStreamModificationAPICallBuilder performWithCompletion]_block_invoke
+___copy_helper_block_.7
+___destroy_helper_block_.8
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Stream/PNStreamModificationAPICallBuilder.m
+__59-[PNStreamModificationAPICallBuilder performWithCompletion]_block_invoke
+__46-[PNStreamModificationAPICallBuilder channels]_block_invoke
+__50-[PNStreamModificationAPICallBuilder channelGroup]_block_invoke
++[PNReachability reachabilityForClient:withPingStatus:]
+-[PNReachability initForClient:withPingStatus:]
+-[PNReachability pingingRemoteService]
+___38-[PNReachability pingingRemoteService]_block_invoke
+-[PNReachability setPingRemoteService:]
+___39-[PNReachability setPingRemoteService:]_block_invoke
+-[PNReachability startServicePing]
+___34-[PNReachability startServicePing]_block_invoke
+___copy_helper_block_.28
+___destroy_helper_block_.29
+-[PNReachability stopServicePing]
+-[PNReachability handleServicePingResult:]
+___42-[PNReachability handleServicePingResult:]_block_invoke
+-[PNReachability client]
+-[PNReachability setClient:]
+-[PNReachability resourceAccessQueue]
+-[PNReachability setResourceAccessQueue:]
+-[PNReachability pingCompleteBlock]
+-[PNReachability setPingCompleteBlock:]
+-[PNReachability reachable]
+-[PNReachability setReachable:]
+-[PNReachability .cxx_destruct]
+_OBJC_IVAR_$_PNReachability._client
+_OBJC_IVAR_$_PNReachability._pingCompleteBlock
+_OBJC_IVAR_$_PNReachability._resourceAccessQueue
+_OBJC_IVAR_$_PNReachability._reachable
+_OBJC_IVAR_$_PNReachability._pingRemoteService
+___block_descriptor_tmp.19
+___block_descriptor_tmp.31
+___block_descriptor_tmp.50
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/PNReachability.m
+__42-[PNReachability handleServicePingResult:]_block_invoke
+__34-[PNReachability startServicePing]_block_invoke
+__39-[PNReachability setPingRemoteService:]_block_invoke
+__38-[PNReachability pingingRemoteService]_block_invoke
+-[PubNub(History) history]
+___26-[PubNub(History) history]_block_invoke
+___26-[PubNub(History) history]_block_invoke.22
+-[PubNub(History) deleteMessage]
+___32-[PubNub(History) deleteMessage]_block_invoke
+___copy_helper_block_.30
+___destroy_helper_block_.31
+___32-[PubNub(History) deleteMessage]_block_invoke.33
+___copy_helper_block_.34
+___destroy_helper_block_.35
+-[PubNub(History) messageCounts]
+___32-[PubNub(History) messageCounts]_block_invoke
+___copy_helper_block_.43
+___destroy_helper_block_.44
+___32-[PubNub(History) messageCounts]_block_invoke.46
+___copy_helper_block_.47
+___destroy_helper_block_.48
+-[PubNub(History) historyForChannel:withCompletion:]
+-[PubNub(History) historyForChannel:start:end:withCompletion:]
+-[PubNub(History) historyForChannel:start:end:limit:withCompletion:]
+-[PubNub(History) historyForChannel:start:end:includeTimeToken:withCompletion:]
+-[PubNub(History) historyForChannel:start:end:limit:includeTimeToken:withCompletion:]
+-[PubNub(History) historyForChannel:start:end:limit:reverse:withCompletion:]
+-[PubNub(History) historyForChannel:start:end:limit:reverse:includeTimeToken:withCompletion:]
+-[PubNub(History) historyForChannels:object:start:end:limit:reverse:includeTimeToken:queryParameters:withCompletion:]
+___117-[PubNub(History) historyForChannels:object:start:end:limit:reverse:includeTimeToken:queryParameters:withCompletion:]_block_invoke
+___117-[PubNub(History) historyForChannels:object:start:end:limit:reverse:includeTimeToken:queryParameters:withCompletion:]_block_invoke_2
+___copy_helper_block_.151
+___destroy_helper_block_.152
+___copy_helper_block_.159
+___destroy_helper_block_.160
+-[PubNub(History) messageCountForChannels:timetokens:queryParameters:withCompletion:]
+___85-[PubNub(History) messageCountForChannels:timetokens:queryParameters:withCompletion:]_block_invoke
+___85-[PubNub(History) messageCountForChannels:timetokens:queryParameters:withCompletion:]_block_invoke_2
+___copy_helper_block_.191
+___destroy_helper_block_.192
+-[PubNub(History) deleteMessagesFromChannel:start:end:withCompletion:]
+-[PubNub(History) deleteMessagesFromChannel:start:end:queryParameters:withCompletion:]
+___86-[PubNub(History) deleteMessagesFromChannel:start:end:queryParameters:withCompletion:]_block_invoke
+___86-[PubNub(History) deleteMessagesFromChannel:start:end:queryParameters:withCompletion:]_block_invoke_2
+___copy_helper_block_.208
+___destroy_helper_block_.209
+___copy_helper_block_.211
+___destroy_helper_block_.212
+-[PubNub(History) handleHistoryResult:withStatus:completion:]
+___block_descriptor_tmp.37
+___block_descriptor_tmp.45
+___block_descriptor_tmp.154
+___block_descriptor_tmp.162
+___block_descriptor_tmp.193
+___block_descriptor_tmp.210
+___block_descriptor_tmp.214
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+History.m
+__86-[PubNub(History) deleteMessagesFromChannel:start:end:queryParameters:withCompletion:]_block_invoke_2
+__86-[PubNub(History) deleteMessagesFromChannel:start:end:queryParameters:withCompletion:]_block_invoke
+__85-[PubNub(History) messageCountForChannels:timetokens:queryParameters:withCompletion:]_block_invoke_2
+__85-[PubNub(History) messageCountForChannels:timetokens:queryParameters:withCompletion:]_block_invoke
+__117-[PubNub(History) historyForChannels:object:start:end:limit:reverse:includeTimeToken:queryParameters:withCompletion:]_block_invoke_2
+__117-[PubNub(History) historyForChannels:object:start:end:limit:reverse:includeTimeToken:queryParameters:withCompletion:]_block_invoke
+__32-[PubNub(History) messageCounts]_block_invoke.46
+__32-[PubNub(History) messageCounts]_block_invoke
+__32-[PubNub(History) deleteMessage]_block_invoke.33
+__32-[PubNub(History) deleteMessage]_block_invoke
+__26-[PubNub(History) history]_block_invoke.22
+__26-[PubNub(History) history]_block_invoke
++[PNServiceData dataWithServiceResponse:]
+-[PNServiceData initWithServiceResponse:]
+-[PNServiceData objectForKeyedSubscript:]
+-[PNServiceData description]
+-[PNServiceData serviceData]
+-[PNServiceData setServiceData:]
+-[PNServiceData .cxx_destruct]
+_OBJC_IVAR_$_PNServiceData._serviceData
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNServiceData.m
+-[PNStateModificationAPICallBuilder uuid]
+___41-[PNStateModificationAPICallBuilder uuid]_block_invoke
+-[PNStateModificationAPICallBuilder state]
+___42-[PNStateModificationAPICallBuilder state]_block_invoke
+-[PNStateModificationAPICallBuilder channel]
+___44-[PNStateModificationAPICallBuilder channel]_block_invoke
+-[PNStateModificationAPICallBuilder channels]
+___45-[PNStateModificationAPICallBuilder channels]_block_invoke
+-[PNStateModificationAPICallBuilder channelGroup]
+___49-[PNStateModificationAPICallBuilder channelGroup]_block_invoke
+-[PNStateModificationAPICallBuilder channelGroups]
+___50-[PNStateModificationAPICallBuilder channelGroups]_block_invoke
+-[PNStateModificationAPICallBuilder performWithCompletion]
+___58-[PNStateModificationAPICallBuilder performWithCompletion]_block_invoke
+___copy_helper_block_.26
+___destroy_helper_block_.27
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/State/PNStateModificationAPICallBuilder.m
+__58-[PNStateModificationAPICallBuilder performWithCompletion]_block_invoke
+__50-[PNStateModificationAPICallBuilder channelGroups]_block_invoke
+__49-[PNStateModificationAPICallBuilder channelGroup]_block_invoke
+__45-[PNStateModificationAPICallBuilder channels]_block_invoke
+__44-[PNStateModificationAPICallBuilder channel]_block_invoke
+__42-[PNStateModificationAPICallBuilder state]_block_invoke
+__41-[PNStateModificationAPICallBuilder uuid]_block_invoke
++[PNClientState stateForClient:]
+-[PNClientState initForClient:]
+-[PNClientState inheritStateFromState:]
+-[PNClientState state]
+___22-[PNClientState state]_block_invoke
+-[PNClientState stateMergedWith:forObjects:]
+___44-[PNClientState stateMergedWith:forObjects:]_block_invoke
+___copy_helper_block_.22
+___destroy_helper_block_.23
+___44-[PNClientState stateMergedWith:forObjects:]_block_invoke.30
+___copy_helper_block_.35
+___destroy_helper_block_.36
+-[PNClientState mergeWithState:]
+___32-[PNClientState mergeWithState:]_block_invoke
+___32-[PNClientState mergeWithState:]_block_invoke_2
+-[PNClientState setState:forObjects:]
+___37-[PNClientState setState:forObjects:]_block_invoke
+___copy_helper_block_.64
+___destroy_helper_block_.65
+-[PNClientState removeStateForObjects:]
+___39-[PNClientState removeStateForObjects:]_block_invoke
+___copy_helper_block_.69
+___destroy_helper_block_.70
+-[PNClientState client]
+-[PNClientState setClient:]
+-[PNClientState stateCache]
+-[PNClientState setStateCache:]
+-[PNClientState resourceAccessQueue]
+-[PNClientState setResourceAccessQueue:]
+-[PNClientState .cxx_destruct]
+_OBJC_IVAR_$_PNClientState._client
+_OBJC_IVAR_$_PNClientState._stateCache
+_OBJC_IVAR_$_PNClientState._resourceAccessQueue
+___block_descriptor_tmp.61
+___block_descriptor_tmp.66
+___block_descriptor_tmp.71
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Managers/PNClientState.m
+__39-[PNClientState removeStateForObjects:]_block_invoke
+__37-[PNClientState setState:forObjects:]_block_invoke
+__32-[PNClientState mergeWithState:]_block_invoke_2
+__32-[PNClientState mergeWithState:]_block_invoke
+__44-[PNClientState stateMergedWith:forObjects:]_block_invoke.30
+__44-[PNClientState stateMergedWith:forObjects:]_block_invoke
+__22-[PNClientState state]_block_invoke
++[PNLeaveParser operations]
++[PNLeaveParser requireAdditionalData]
++[PNLeaveParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNLeaveParser.m
++[PNErrorParser operations]
++[PNErrorParser requireAdditionalData]
++[PNErrorParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNErrorParser.m
+-[PNErrorData channels]
+-[PNErrorData channelGroups]
+-[PNErrorData information]
+-[PNErrorData data]
+-[PNErrorStatus copyWithZone:]
+-[PNErrorStatus errorData]
+-[PNErrorStatus associatedObject]
+-[PNErrorStatus setAssociatedObject:]
+-[PNErrorStatus setErrorData:]
+-[PNErrorStatus .cxx_destruct]
+_OBJC_IVAR_$_PNErrorStatus._errorData
+_OBJC_IVAR_$_PNErrorStatus._associatedObject
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNErrorStatus.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNErrorStatus+Private.h
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNErrorStatus.h
++[PNURLBuilder URLForOperation:withParameters:]
+___47+[PNURLBuilder URLForOperation:withParameters:]_block_invoke
++[PNURLBuilder isURL:forOperation:]
+_PNOperationRequestTemplate
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/PNURLBuilder.m
+__47+[PNURLBuilder URLForOperation:withParameters:]_block_invoke
+NSMakeRange
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[PNPresenceChannelGroupHereNowAPICallBuilder verbosity]
+___56-[PNPresenceChannelGroupHereNowAPICallBuilder verbosity]_block_invoke
+-[PNPresenceChannelGroupHereNowAPICallBuilder performWithCompletion]
+___68-[PNPresenceChannelGroupHereNowAPICallBuilder performWithCompletion]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Presence/PNPresenceChannelGroupHereNowAPICallBuilder.m
+__68-[PNPresenceChannelGroupHereNowAPICallBuilder performWithCompletion]_block_invoke
+__56-[PNPresenceChannelGroupHereNowAPICallBuilder verbosity]_block_invoke
+-[PNSubscriber retryTimer]
+___26-[PNSubscriber retryTimer]_block_invoke
+-[PNSubscriber setRetryTimer:]
+___30-[PNSubscriber setRetryTimer:]_block_invoke
+-[PNSubscriber allObjects]
+-[PNSubscriber channels]
+___24-[PNSubscriber channels]_block_invoke
+___copy_helper_block_.16
+___destroy_helper_block_.17
+-[PNSubscriber addChannels:]
+___28-[PNSubscriber addChannels:]_block_invoke
+-[PNSubscriber removeChannels:]
+___31-[PNSubscriber removeChannels:]_block_invoke
+___copy_helper_block_.38
+___destroy_helper_block_.39
+-[PNSubscriber channelGroups]
+___29-[PNSubscriber channelGroups]_block_invoke
+-[PNSubscriber addChannelGroups:]
+___33-[PNSubscriber addChannelGroups:]_block_invoke
+-[PNSubscriber removeChannelGroups:]
+___36-[PNSubscriber removeChannelGroups:]_block_invoke
+___copy_helper_block_.49
+___destroy_helper_block_.50
+-[PNSubscriber presenceChannels]
+___32-[PNSubscriber presenceChannels]_block_invoke
+___copy_helper_block_.52
+___destroy_helper_block_.53
+-[PNSubscriber addPresenceChannels:]
+___36-[PNSubscriber addPresenceChannels:]_block_invoke
+___copy_helper_block_.55
+___destroy_helper_block_.56
+-[PNSubscriber removePresenceChannels:]
+___39-[PNSubscriber removePresenceChannels:]_block_invoke
+___copy_helper_block_.58
+___destroy_helper_block_.59
+-[PNSubscriber currentTimeToken]
+___32-[PNSubscriber currentTimeToken]_block_invoke
+___copy_helper_block_.61
+___destroy_helper_block_.62
+-[PNSubscriber setCurrentTimeToken:]
+___36-[PNSubscriber setCurrentTimeToken:]_block_invoke
+-[PNSubscriber lastTimeToken]
+___29-[PNSubscriber lastTimeToken]_block_invoke
+___copy_helper_block_.67
+___destroy_helper_block_.68
+-[PNSubscriber setLastTimeToken:]
+___33-[PNSubscriber setLastTimeToken:]_block_invoke
+-[PNSubscriber overrideTimeToken]
+___33-[PNSubscriber overrideTimeToken]_block_invoke
+___copy_helper_block_.73
+___destroy_helper_block_.74
+-[PNSubscriber setOverrideTimeToken:]
+___37-[PNSubscriber setOverrideTimeToken:]_block_invoke
+___copy_helper_block_.79
+___destroy_helper_block_.80
+-[PNSubscriber currentTimeTokenRegion]
+___38-[PNSubscriber currentTimeTokenRegion]_block_invoke
+___copy_helper_block_.82
+___destroy_helper_block_.83
+-[PNSubscriber setCurrentTimeTokenRegion:]
+___42-[PNSubscriber setCurrentTimeTokenRegion:]_block_invoke
+___copy_helper_block_.85
+___destroy_helper_block_.86
+-[PNSubscriber lastTimeTokenRegion]
+___35-[PNSubscriber lastTimeTokenRegion]_block_invoke
+___copy_helper_block_.88
+___destroy_helper_block_.89
+-[PNSubscriber setLastTimeTokenRegion:]
+___39-[PNSubscriber setLastTimeTokenRegion:]_block_invoke
+___copy_helper_block_.91
+___destroy_helper_block_.92
+-[PNSubscriber updateStateTo:withStatus:completion:]
+___52-[PNSubscriber updateStateTo:withStatus:completion:]_block_invoke
+___52-[PNSubscriber updateStateTo:withStatus:completion:]_block_invoke_2
+___copy_helper_block_.111
+___destroy_helper_block_.112
+___52-[PNSubscriber updateStateTo:withStatus:completion:]_block_invoke.120
+___copy_helper_block_.121
+___destroy_helper_block_.122
+___copy_helper_block_.124
+___destroy_helper_block_.125
++[PNSubscriber subscriberForClient:]
+-[PNSubscriber initForClient:]
+-[PNSubscriber inheritStateFromSubscriber:]
+-[PNSubscriber filterExpression]
+___32-[PNSubscriber filterExpression]_block_invoke
+-[PNSubscriber setFilterExpression:]
+___36-[PNSubscriber setFilterExpression:]_block_invoke
+-[PNSubscriber escapedFilterExpression]
+___39-[PNSubscriber escapedFilterExpression]_block_invoke
+___copy_helper_block_.170
+___destroy_helper_block_.171
+-[PNSubscriber subscribeUsingTimeToken:withState:queryParameters:completion:]
+-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]
+___78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke
+___78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke.208
+___78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke_2
+___copy_helper_block_.214
+___destroy_helper_block_.215
+___78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke.222
+___copy_helper_block_.223
+___destroy_helper_block_.224
+___78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke.226
+___copy_helper_block_.227
+___destroy_helper_block_.228
+___78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke.230
+___copy_helper_block_.235
+___destroy_helper_block_.236
+-[PNSubscriber restoreSubscriptionCycleIfRequiredWithCompletion:]
+___65-[PNSubscriber restoreSubscriptionCycleIfRequiredWithCompletion:]_block_invoke
+___copy_helper_block_.245
+___destroy_helper_block_.246
+-[PNSubscriber continueSubscriptionCycleIfRequiredWithCompletion:]
+-[PNSubscriber unsubscribeFromAllWithQueryParameters:completion:]
+-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:completion:]
+-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]
+___116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke
+___copy_helper_block_.271
+___destroy_helper_block_.272
+___116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke.283
+___116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke_2
+___copy_helper_block_.286
+___destroy_helper_block_.287
+___copy_helper_block_.289
+___destroy_helper_block_.290
+___116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke.292
+___copy_helper_block_.293
+___destroy_helper_block_.294
+___116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke.300
+___116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke_2.301
+___copy_helper_block_.302
+___destroy_helper_block_.303
+___116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke.305
+___copy_helper_block_.306
+___destroy_helper_block_.307
+___copy_helper_block_.309
+___destroy_helper_block_.310
+-[PNSubscriber startRetryTimer]
+___31-[PNSubscriber startRetryTimer]_block_invoke
+___copy_helper_block_.315
+___destroy_helper_block_.316
+-[PNSubscriber stopRetryTimer]
+-[PNSubscriber handleSubscriptionStatus:]
+-[PNSubscriber handleSuccessSubscriptionStatus:]
+___48-[PNSubscriber handleSuccessSubscriptionStatus:]_block_invoke
+___copy_helper_block_.352
+___destroy_helper_block_.353
+-[PNSubscriber handleFailedSubscriptionStatus:]
+___47-[PNSubscriber handleFailedSubscriptionStatus:]_block_invoke
+___copy_helper_block_.361
+___destroy_helper_block_.362
+___47-[PNSubscriber handleFailedSubscriptionStatus:]_block_invoke.370
+___47-[PNSubscriber handleFailedSubscriptionStatus:]_block_invoke_2
+___copy_helper_block_.374
+___destroy_helper_block_.375
+-[PNSubscriber handleSubscription:timeToken:region:]
+___52-[PNSubscriber handleSubscription:timeToken:region:]_block_invoke
+___copy_helper_block_.393
+___destroy_helper_block_.394
+-[PNSubscriber handleLiveFeedEvents:forInitialSubscription:overrideTimeToken:]
+___78-[PNSubscriber handleLiveFeedEvents:forInitialSubscription:overrideTimeToken:]_block_invoke
+___copy_helper_block_.420
+___destroy_helper_block_.421
+-[PNSubscriber handleNewMessage:]
+-[PNSubscriber handleNewPresenceEvent:]
+-[PNSubscriber subscribeRequestParametersWithState:]
+-[PNSubscriber deDuplicateMessages:]
+___36-[PNSubscriber deDuplicateMessages:]_block_invoke
+___copy_helper_block_.516
+___destroy_helper_block_.517
+-[PNSubscriber clearCacheFromMessagesNewerThan:]
+___48-[PNSubscriber clearCacheFromMessagesNewerThan:]_block_invoke
+___copy_helper_block_.538
+___destroy_helper_block_.539
+-[PNSubscriber cacheObjectIfPossible:withMaximumCacheSize:]
+-[PNSubscriber cleanUpCachedObjectsIfRequired:]
+-[PNSubscriber appendSubscriberInformation:]
+-[PNSubscriber client]
+-[PNSubscriber setClient:]
+-[PNSubscriber currentState]
+-[PNSubscriber setCurrentState:]
+-[PNSubscriber mayRequireSubscriptionRestore]
+-[PNSubscriber setMayRequireSubscriptionRestore:]
+-[PNSubscriber channelsSet]
+-[PNSubscriber setChannelsSet:]
+-[PNSubscriber channelGroupsSet]
+-[PNSubscriber setChannelGroupsSet:]
+-[PNSubscriber presenceChannelsSet]
+-[PNSubscriber setPresenceChannelsSet:]
+-[PNSubscriber cachedObjects]
+-[PNSubscriber setCachedObjects:]
+-[PNSubscriber cachedObjectIdentifiers]
+-[PNSubscriber setCachedObjectIdentifiers:]
+-[PNSubscriber setEscapedFilterExpression:]
+-[PNSubscriber resourceAccessQueue]
+-[PNSubscriber setResourceAccessQueue:]
+-[PNSubscriber .cxx_destruct]
+_OBJC_IVAR_$_PNSubscriber._retryTimer
+___block_descriptor_tmp.3
+___block_descriptor_tmp.40
+___block_descriptor_tmp.60
+_OBJC_IVAR_$_PNSubscriber._currentTimeToken
+_OBJC_IVAR_$_PNSubscriber._lastTimeToken
+_OBJC_IVAR_$_PNSubscriber._overrideTimeToken
+___block_descriptor_tmp.75
+___block_descriptor_tmp.81
+_OBJC_IVAR_$_PNSubscriber._currentTimeTokenRegion
+___block_descriptor_tmp.84
+___block_descriptor_tmp.87
+_OBJC_IVAR_$_PNSubscriber._lastTimeTokenRegion
+_OBJC_IVAR_$_PNSubscriber._currentState
+___block_descriptor_tmp.113
+___block_descriptor_tmp.123
+___block_descriptor_tmp.126
+_OBJC_IVAR_$_PNSubscriber._client
+_OBJC_IVAR_$_PNSubscriber._channelsSet
+_OBJC_IVAR_$_PNSubscriber._channelGroupsSet
+_OBJC_IVAR_$_PNSubscriber._presenceChannelsSet
+_OBJC_IVAR_$_PNSubscriber._cachedObjectIdentifiers
+_OBJC_IVAR_$_PNSubscriber._cachedObjects
+_OBJC_IVAR_$_PNSubscriber._resourceAccessQueue
+_OBJC_IVAR_$_PNSubscriber._escapedFilterExpression
+_OBJC_IVAR_$_PNSubscriber._filterExpression
+___block_descriptor_tmp.169
+___block_descriptor_tmp.172
+___block_descriptor_tmp.213
+___block_descriptor_tmp.217
+___block_descriptor_tmp.225
+___block_descriptor_tmp.229
+___block_descriptor_tmp.238
+___block_descriptor_tmp.247
+___block_descriptor_tmp.273
+___block_descriptor_tmp.288
+___block_descriptor_tmp.291
+___block_descriptor_tmp.295
+___block_descriptor_tmp.304
+___block_descriptor_tmp.308
+___block_descriptor_tmp.312
+___block_descriptor_tmp.317
+___block_descriptor_tmp.354
+___block_descriptor_tmp.363
+___block_descriptor_tmp.371
+___block_descriptor_tmp.376
+___block_descriptor_tmp.395
+___block_descriptor_tmp.422
+___block_descriptor_tmp.519
+___block_descriptor_tmp.541
+_OBJC_IVAR_$_PNSubscriber._mayRequireSubscriptionRestore
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Managers/PNSubscriber.m
+__48-[PNSubscriber clearCacheFromMessagesNewerThan:]_block_invoke
+__36-[PNSubscriber deDuplicateMessages:]_block_invoke
+__78-[PNSubscriber handleLiveFeedEvents:forInitialSubscription:overrideTimeToken:]_block_invoke
+__52-[PNSubscriber handleSubscription:timeToken:region:]_block_invoke
+__47-[PNSubscriber handleFailedSubscriptionStatus:]_block_invoke_2
+__47-[PNSubscriber handleFailedSubscriptionStatus:]_block_invoke.370
+__47-[PNSubscriber handleFailedSubscriptionStatus:]_block_invoke
+__48-[PNSubscriber handleSuccessSubscriptionStatus:]_block_invoke
+__31-[PNSubscriber startRetryTimer]_block_invoke
+__116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke.305
+__116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke_2.301
+__116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke.300
+__116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke.292
+__116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke_2
+__116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke.283
+__116-[PNSubscriber unsubscribeFromChannels:groups:withQueryParameters:listenersNotification:subscribeOnRest:completion:]_block_invoke
+__65-[PNSubscriber restoreSubscriptionCycleIfRequiredWithCompletion:]_block_invoke
+__78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke.230
+__78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke.226
+__78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke.222
+__78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke_2
+__78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke.208
+__78-[PNSubscriber subscribe:usingTimeToken:withState:queryParameters:completion:]_block_invoke
+__39-[PNSubscriber escapedFilterExpression]_block_invoke
+__36-[PNSubscriber setFilterExpression:]_block_invoke
+__32-[PNSubscriber filterExpression]_block_invoke
+__52-[PNSubscriber updateStateTo:withStatus:completion:]_block_invoke.120
+__52-[PNSubscriber updateStateTo:withStatus:completion:]_block_invoke_2
+__52-[PNSubscriber updateStateTo:withStatus:completion:]_block_invoke
+__39-[PNSubscriber setLastTimeTokenRegion:]_block_invoke
+__35-[PNSubscriber lastTimeTokenRegion]_block_invoke
+__42-[PNSubscriber setCurrentTimeTokenRegion:]_block_invoke
+__38-[PNSubscriber currentTimeTokenRegion]_block_invoke
+__37-[PNSubscriber setOverrideTimeToken:]_block_invoke
+__33-[PNSubscriber overrideTimeToken]_block_invoke
+__33-[PNSubscriber setLastTimeToken:]_block_invoke
+__29-[PNSubscriber lastTimeToken]_block_invoke
+__36-[PNSubscriber setCurrentTimeToken:]_block_invoke
+__32-[PNSubscriber currentTimeToken]_block_invoke
+__39-[PNSubscriber removePresenceChannels:]_block_invoke
+__36-[PNSubscriber addPresenceChannels:]_block_invoke
+__32-[PNSubscriber presenceChannels]_block_invoke
+__36-[PNSubscriber removeChannelGroups:]_block_invoke
+__33-[PNSubscriber addChannelGroups:]_block_invoke
+__29-[PNSubscriber channelGroups]_block_invoke
+__31-[PNSubscriber removeChannels:]_block_invoke
+__28-[PNSubscriber addChannels:]_block_invoke
+__24-[PNSubscriber channels]_block_invoke
+__30-[PNSubscriber setRetryTimer:]_block_invoke
+__26-[PNSubscriber retryTimer]_block_invoke
+-[PNTimeData timetoken]
+-[PNTimeResult data]
+-[PNTimeResult setData:]
+-[PNTimeResult .cxx_destruct]
+_OBJC_IVAR_$_PNTimeResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNTimeResult.m
+-[PNPresenceWhereNowAPICallBuilder uuid]
+___40-[PNPresenceWhereNowAPICallBuilder uuid]_block_invoke
+-[PNPresenceWhereNowAPICallBuilder performWithCompletion]
+___57-[PNPresenceWhereNowAPICallBuilder performWithCompletion]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Presence/PNPresenceWhereNowAPICallBuilder.m
+__57-[PNPresenceWhereNowAPICallBuilder performWithCompletion]_block_invoke
+__40-[PNPresenceWhereNowAPICallBuilder uuid]_block_invoke
++[PNTimeParser operations]
++[PNTimeParser requireAdditionalData]
++[PNTimeParser parsedServiceResponse:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNTimeParser.m
++[PNURLRequest packetSizeForRequest:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNURLRequest.m
+-[PubNub(State) state]
+___22-[PubNub(State) state]_block_invoke
+___22-[PubNub(State) state]_block_invoke.22
+-[PubNub(State) setState:forUUID:onChannel:withCompletion:]
+-[PubNub(State) setState:forUUID:onChannelGroup:withCompletion:]
+-[PubNub(State) setState:forUUID:onChannels:groups:withQueryParameters:completion:]
+___83-[PubNub(State) setState:forUUID:onChannels:groups:withQueryParameters:completion:]_block_invoke
+___83-[PubNub(State) setState:forUUID:onChannels:groups:withQueryParameters:completion:]_block_invoke_2
+___83-[PubNub(State) setState:forUUID:onChannels:groups:withQueryParameters:completion:]_block_invoke_3
+___copy_helper_block_.99
+___destroy_helper_block_.100
+___copy_helper_block_.105
+___destroy_helper_block_.106
+-[PubNub(State) stateForUUID:onChannel:withCompletion:]
+-[PubNub(State) stateForUUID:onChannelGroup:withCompletion:]
+-[PubNub(State) stateForUUID:onChannels:groups:fromBuilder:withQueryParameters:completion:]
+___91-[PubNub(State) stateForUUID:onChannels:groups:fromBuilder:withQueryParameters:completion:]_block_invoke
+___91-[PubNub(State) stateForUUID:onChannels:groups:fromBuilder:withQueryParameters:completion:]_block_invoke_2
+___copy_helper_block_.110
+___destroy_helper_block_.111
+___copy_helper_block_.115
+___destroy_helper_block_.116
+-[PubNub(State) handleSetStateStatus:forUUID:atChannels:groups:withCompletion:]
+-[PubNub(State) handleStateResult:withStatus:forUUID:atChannels:groups:fromBuilder:withCompletion:]
+___block_descriptor_tmp.94
+___block_descriptor_tmp.112
+___block_descriptor_tmp.118
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+State.m
+__91-[PubNub(State) stateForUUID:onChannels:groups:fromBuilder:withQueryParameters:completion:]_block_invoke_2
+__91-[PubNub(State) stateForUUID:onChannels:groups:fromBuilder:withQueryParameters:completion:]_block_invoke
+__83-[PubNub(State) setState:forUUID:onChannels:groups:withQueryParameters:completion:]_block_invoke_3
+__83-[PubNub(State) setState:forUUID:onChannels:groups:withQueryParameters:completion:]_block_invoke_2
+__83-[PubNub(State) setState:forUUID:onChannels:groups:withQueryParameters:completion:]_block_invoke
+__22-[PubNub(State) state]_block_invoke.22
+__22-[PubNub(State) state]_block_invoke
++[PNDictionary queryStringFrom:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNDictionary.m
++[PNHeartbeat heartbeatForClient:]
+-[PNHeartbeat initForClient:]
+-[PNHeartbeat heartbeatTimer]
+___29-[PNHeartbeat heartbeatTimer]_block_invoke
+-[PNHeartbeat setHeartbeatTimer:]
+___33-[PNHeartbeat setHeartbeatTimer:]_block_invoke
+-[PNHeartbeat allObjects]
+___25-[PNHeartbeat allObjects]_block_invoke
+-[PNHeartbeat channels]
+___23-[PNHeartbeat channels]_block_invoke
+-[PNHeartbeat channelGroups]
+___28-[PNHeartbeat channelGroups]_block_invoke
+-[PNHeartbeat setConnected:forChannels:]
+___40-[PNHeartbeat setConnected:forChannels:]_block_invoke
+___copy_helper_block_.31
+___destroy_helper_block_.32
+-[PNHeartbeat setConnected:forChannelGroups:]
+___45-[PNHeartbeat setConnected:forChannelGroups:]_block_invoke
+-[PNHeartbeat startHeartbeatIfRequired]
+___39-[PNHeartbeat startHeartbeatIfRequired]_block_invoke
+-[PNHeartbeat stopHeartbeatIfPossible]
+___38-[PNHeartbeat stopHeartbeatIfPossible]_block_invoke
+-[PNHeartbeat handleHeartbeatTimer]
+___35-[PNHeartbeat handleHeartbeatTimer]_block_invoke
+-[PNHeartbeat shouldNotifyAboutHeartbeatWithStatus:]
+-[PNHeartbeat client]
+-[PNHeartbeat setClient:]
+-[PNHeartbeat presenceChannels]
+-[PNHeartbeat setPresenceChannels:]
+-[PNHeartbeat presenceChannelGroups]
+-[PNHeartbeat setPresenceChannelGroups:]
+-[PNHeartbeat resourceAccessQueue]
+-[PNHeartbeat setResourceAccessQueue:]
+-[PNHeartbeat .cxx_destruct]
+_OBJC_IVAR_$_PNHeartbeat._client
+_OBJC_IVAR_$_PNHeartbeat._presenceChannels
+_OBJC_IVAR_$_PNHeartbeat._presenceChannelGroups
+_OBJC_IVAR_$_PNHeartbeat._resourceAccessQueue
+_OBJC_IVAR_$_PNHeartbeat._heartbeatTimer
+___block_descriptor_tmp.33
+___block_descriptor_tmp.36
+___block_descriptor_tmp.49
+___block_descriptor_tmp.56
+___block_descriptor_tmp.73
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Managers/PNHeartbeat.m
+__35-[PNHeartbeat handleHeartbeatTimer]_block_invoke
+__38-[PNHeartbeat stopHeartbeatIfPossible]_block_invoke
+__39-[PNHeartbeat startHeartbeatIfRequired]_block_invoke
+__45-[PNHeartbeat setConnected:forChannelGroups:]_block_invoke
+__40-[PNHeartbeat setConnected:forChannels:]_block_invoke
+__28-[PNHeartbeat channelGroups]_block_invoke
+__23-[PNHeartbeat channels]_block_invoke
+__25-[PNHeartbeat allObjects]_block_invoke
+__33-[PNHeartbeat setHeartbeatTimer:]_block_invoke
+__29-[PNHeartbeat heartbeatTimer]_block_invoke
+-[PNAPNSModificationAPICallBuilder token]
+___41-[PNAPNSModificationAPICallBuilder token]_block_invoke
+-[PNAPNSModificationAPICallBuilder channels]
+___44-[PNAPNSModificationAPICallBuilder channels]_block_invoke
+-[PNAPNSModificationAPICallBuilder performWithCompletion]
+___57-[PNAPNSModificationAPICallBuilder performWithCompletion]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/APNS/PNAPNSModificationAPICallBuilder.m
+__57-[PNAPNSModificationAPICallBuilder performWithCompletion]_block_invoke
+__44-[PNAPNSModificationAPICallBuilder channels]_block_invoke
+__41-[PNAPNSModificationAPICallBuilder token]_block_invoke
+-[PubNub(Time) time]
+___20-[PubNub(Time) time]_block_invoke
+___20-[PubNub(Time) time]_block_invoke.8
+-[PubNub(Time) timeWithCompletion:]
+-[PubNub(Time) timeWithQueryParameters:completion:]
+___51-[PubNub(Time) timeWithQueryParameters:completion:]_block_invoke
+___51-[PubNub(Time) timeWithQueryParameters:completion:]_block_invoke_2
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+Time.m
+__51-[PubNub(Time) timeWithQueryParameters:completion:]_block_invoke_2
+__51-[PubNub(Time) timeWithQueryParameters:completion:]_block_invoke
+__20-[PubNub(Time) time]_block_invoke.8
+__20-[PubNub(Time) time]_block_invoke
+-[PNMessageCountAPICallBuilder channels]
+___40-[PNMessageCountAPICallBuilder channels]_block_invoke
+-[PNMessageCountAPICallBuilder timetokens]
+___42-[PNMessageCountAPICallBuilder timetokens]_block_invoke
+-[PNMessageCountAPICallBuilder performWithCompletion]
+___53-[PNMessageCountAPICallBuilder performWithCompletion]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/History/PNMessageCountAPICallBuilder.m
+__53-[PNMessageCountAPICallBuilder performWithCompletion]_block_invoke
+__42-[PNMessageCountAPICallBuilder timetokens]_block_invoke
+__40-[PNMessageCountAPICallBuilder channels]_block_invoke
+-[PNStreamAuditAPICallBuilder channelGroup]
+___43-[PNStreamAuditAPICallBuilder channelGroup]_block_invoke
+-[PNStreamAuditAPICallBuilder performWithCompletion]
+___52-[PNStreamAuditAPICallBuilder performWithCompletion]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Stream/PNStreamAuditAPICallBuilder.m
+__52-[PNStreamAuditAPICallBuilder performWithCompletion]_block_invoke
+__43-[PNStreamAuditAPICallBuilder channelGroup]_block_invoke
+-[PubNub(APNS) push]
+___20-[PubNub(APNS) push]_block_invoke
+___20-[PubNub(APNS) push]_block_invoke.24
+___copy_helper_block_.25
+___destroy_helper_block_.26
+-[PubNub(APNS) addPushNotificationsOnChannels:withDevicePushToken:andCompletion:]
+-[PubNub(APNS) removePushNotificationsFromChannels:withDevicePushToken:andCompletion:]
+-[PubNub(APNS) removeAllPushNotificationsFromDeviceWithPushToken:andCompletion:]
+-[PubNub(APNS) enablePushNotification:onChannels:withDevicePushToken:queryParameters:andCompletion:]
+___100-[PubNub(APNS) enablePushNotification:onChannels:withDevicePushToken:queryParameters:andCompletion:]_block_invoke
+___100-[PubNub(APNS) enablePushNotification:onChannels:withDevicePushToken:queryParameters:andCompletion:]_block_invoke_2
+___copy_helper_block_.76
+___destroy_helper_block_.77
+-[PubNub(APNS) pushNotificationEnabledChannelsForDeviceWithPushToken:andCompletion:]
+-[PubNub(APNS) pushNotificationEnabledChannelsForDeviceWithPushToken:queryParameters:andCompletion:]
+___100-[PubNub(APNS) pushNotificationEnabledChannelsForDeviceWithPushToken:queryParameters:andCompletion:]_block_invoke
+___100-[PubNub(APNS) pushNotificationEnabledChannelsForDeviceWithPushToken:queryParameters:andCompletion:]_block_invoke_2
+___copy_helper_block_.95
+___destroy_helper_block_.96
+___copy_helper_block_.98
+___destroy_helper_block_.99
+-[PubNub(APNS) storedDevicePushToken]
+___37-[PubNub(APNS) storedDevicePushToken]_block_invoke
+___block_descriptor_tmp.28
+___block_descriptor_tmp.97
+___block_descriptor_tmp.101
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+APNS.m
+__37-[PubNub(APNS) storedDevicePushToken]_block_invoke
+__100-[PubNub(APNS) pushNotificationEnabledChannelsForDeviceWithPushToken:queryParameters:andCompletion:]_block_invoke_2
+__100-[PubNub(APNS) pushNotificationEnabledChannelsForDeviceWithPushToken:queryParameters:andCompletion:]_block_invoke
+__100-[PubNub(APNS) enablePushNotification:onChannels:withDevicePushToken:queryParameters:andCompletion:]_block_invoke_2
+__100-[PubNub(APNS) enablePushNotification:onChannels:withDevicePushToken:queryParameters:andCompletion:]_block_invoke
+__20-[PubNub(APNS) push]_block_invoke.24
+__20-[PubNub(APNS) push]_block_invoke
++[PubNub information]
+___21+[PubNub information]_block_invoke
+-[PubNub currentConfiguration]
+-[PubNub uuid]
++[PubNub clientWithConfiguration:]
++[PubNub clientWithConfiguration:callbackQueue:]
+-[PubNub initWithConfiguration:callbackQueue:]
+-[PubNub copyWithConfiguration:completion:]
+-[PubNub copyWithConfiguration:callbackQueue:completion:]
+___57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke
+___57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke_2
+___57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke_3
+___copy_helper_block_.246
+___destroy_helper_block_.247
+___copy_helper_block_.252
+___destroy_helper_block_.253
+___57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke.265
+___copy_helper_block_.266
+___destroy_helper_block_.267
+___57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke.271
+___copy_helper_block_.272
+___destroy_helper_block_.273
+-[PubNub setRecentClientStatus:]
+___32-[PubNub setRecentClientStatus:]_block_invoke
+___copy_helper_block_.283
+___destroy_helper_block_.284
+-[PubNub prepareReachability]
+___29-[PubNub prepareReachability]_block_invoke
+___copy_helper_block_.291
+___destroy_helper_block_.292
+-[PubNub prepareNetworkManagers]
+-[PubNub processOperation:withParameters:completionBlock:]
+-[PubNub processOperation:withParameters:data:completionBlock:]
+-[PubNub packetSizeForOperation:withParameters:data:]
+-[PubNub appendClientInformation:]
+-[PubNub callBlock:status:withResult:andStatus:]
+___48-[PubNub callBlock:status:withResult:andStatus:]_block_invoke
+___copy_helper_block_.330
+___destroy_helper_block_.331
+-[PubNub client:didReceiveStatus:]
+-[PubNub handleContextTransition:]
+-[PubNub storeUUID:]
+-[PubNub setupClientLogger]
+___27-[PubNub setupClientLogger]_block_invoke
+___27-[PubNub setupClientLogger]_block_invoke_2
+___copy_helper_block_.369
+___destroy_helper_block_.370
+-[PubNub printLogVerbosityInformation]
+-[PubNub notifyDeprecatedAPI]
+-[PubNub dealloc]
+-[PubNub logger]
+-[PubNub setLogger:]
+-[PubNub callbackQueue]
+-[PubNub setCallbackQueue:]
+-[PubNub configuration]
+-[PubNub setConfiguration:]
+-[PubNub instanceID]
+-[PubNub setInstanceID:]
+-[PubNub subscriberManager]
+-[PubNub setSubscriberManager:]
+-[PubNub sequenceManager]
+-[PubNub setSequenceManager:]
+-[PubNub clientStateManager]
+-[PubNub setClientStateManager:]
+-[PubNub listenersManager]
+-[PubNub setListenersManager:]
+-[PubNub heartbeatManager]
+-[PubNub setHeartbeatManager:]
+-[PubNub telemetryManager]
+-[PubNub setTelemetryManager:]
+-[PubNub recentClientStatus]
+-[PubNub subscriptionNetwork]
+-[PubNub setSubscriptionNetwork:]
+-[PubNub serviceNetwork]
+-[PubNub setServiceNetwork:]
+-[PubNub reachability]
+-[PubNub setReachability:]
+-[PubNub .cxx_destruct]
+_information._sharedClientInformation
+_information.onceToken
+_OBJC_IVAR_$_PubNub._configuration
+_OBJC_IVAR_$_PubNub._callbackQueue
+_OBJC_IVAR_$_PubNub._instanceID
+_OBJC_IVAR_$_PubNub._subscriberManager
+_OBJC_IVAR_$_PubNub._sequenceManager
+_OBJC_IVAR_$_PubNub._clientStateManager
+_OBJC_IVAR_$_PubNub._listenersManager
+_OBJC_IVAR_$_PubNub._heartbeatManager
+_OBJC_IVAR_$_PubNub._telemetryManager
+___block_descriptor_tmp.245
+___block_descriptor_tmp.249
+___block_descriptor_tmp.254
+___block_descriptor_tmp.268
+___block_descriptor_tmp.274
+_OBJC_IVAR_$_PubNub._recentClientStatus
+___block_descriptor_tmp.294
+_OBJC_IVAR_$_PubNub._reachability
+_OBJC_IVAR_$_PubNub._subscriptionNetwork
+_OBJC_IVAR_$_PubNub._serviceNetwork
+___block_descriptor_tmp.332
+_OBJC_IVAR_$_PubNub._logger
+l_OBJC_PROTOCOL_$_PNObjectEventListener
+l_OBJC_LABEL_PROTOCOL_$_PNObjectEventListener
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+Core.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Core/PubNub+Core.h
+__27-[PubNub setupClientLogger]_block_invoke_2
+__27-[PubNub setupClientLogger]_block_invoke
+__48-[PubNub callBlock:status:withResult:andStatus:]_block_invoke
+__29-[PubNub prepareReachability]_block_invoke
+__32-[PubNub setRecentClientStatus:]_block_invoke
+__57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke.271
+__57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke.265
+__57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke_3
+__57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke_2
+__57-[PubNub copyWithConfiguration:callbackQueue:completion:]_block_invoke
+__21+[PubNub information]_block_invoke
+pn_operating_system_version_is_lower_than
+pn_operating_system_version_is_same_as
+pn_operating_system_version_is_greater_than
+pn_operating_system_version
+pn_safe_property_write
+pn_safe_property_read
+pn_dispatch_async
++[PNKeychain inMemoryStorage]
+___29+[PNKeychain inMemoryStorage]_block_invoke
++[PNKeychain storeValue:forKey:withCompletionBlock:]
+___52+[PNKeychain storeValue:forKey:withCompletionBlock:]_block_invoke
+___52+[PNKeychain storeValue:forKey:withCompletionBlock:]_block_invoke.8
++[PNKeychain valueForKey:withCompletionBlock:]
+___46+[PNKeychain valueForKey:withCompletionBlock:]_block_invoke
+___46+[PNKeychain valueForKey:withCompletionBlock:]_block_invoke.23
++[PNKeychain removeValueForKey:withCompletionBlock:]
+___52+[PNKeychain removeValueForKey:withCompletionBlock:]_block_invoke
+___52+[PNKeychain removeValueForKey:withCompletionBlock:]_block_invoke_2
+___52+[PNKeychain removeValueForKey:withCompletionBlock:]_block_invoke.41
++[PNKeychain debugKeychainQueryStatus:]
++[PNKeychain checkExistingDataWithQuery:completionBlock:]
+___57+[PNKeychain checkExistingDataWithQuery:completionBlock:]_block_invoke
++[PNKeychain searchWithQuery:fetchData:completionBlock:]
++[PNKeychain update:usingQuery:completionBlock:]
+___48+[PNKeychain update:usingQuery:completionBlock:]_block_invoke
++[PNKeychain packedData:]
++[PNKeychain unpackedData:]
++[PNKeychain fileBasedStoragePath]
+___34+[PNKeychain fileBasedStoragePath]_block_invoke
++[PNKeychain isKeychainAvailable]
+___33+[PNKeychain isKeychainAvailable]_block_invoke
++[PNKeychain baseInformationForItemWithKey:]
+_inMemoryStorage._inMemoryStorage
+_inMemoryStorage.onceToken
+_keychainAccessLock
+___block_descriptor_tmp.47
+_fileBasedStoragePath._fileBasedStoragePath
+_fileBasedStoragePath.onceToken
+___block_literal_global.95
+_isKeychainAvailable.available
+_isKeychainAvailable.onceToken
+___block_descriptor_tmp.111
+___block_literal_global.112
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/PNKeychain.m
+__33+[PNKeychain isKeychainAvailable]_block_invoke
+__34+[PNKeychain fileBasedStoragePath]_block_invoke
+__48+[PNKeychain update:usingQuery:completionBlock:]_block_invoke
+__57+[PNKeychain checkExistingDataWithQuery:completionBlock:]_block_invoke
+__52+[PNKeychain removeValueForKey:withCompletionBlock:]_block_invoke.41
+__52+[PNKeychain removeValueForKey:withCompletionBlock:]_block_invoke_2
+__52+[PNKeychain removeValueForKey:withCompletionBlock:]_block_invoke
+__46+[PNKeychain valueForKey:withCompletionBlock:]_block_invoke.23
+__46+[PNKeychain valueForKey:withCompletionBlock:]_block_invoke
+__52+[PNKeychain storeValue:forKey:withCompletionBlock:]_block_invoke.8
+__52+[PNKeychain storeValue:forKey:withCompletionBlock:]_block_invoke
+__29+[PNKeychain inMemoryStorage]_block_invoke
++[PNNetwork networkForClient:requestTimeout:maximumConnections:longPoll:]
+-[PNNetwork initForClient:requestTimeout:maximumConnections:longPoll:]
+-[PNNetwork appendRequiredParametersTo:]
+___40-[PNNetwork appendRequiredParametersTo:]_block_invoke
+-[PNNetwork prepareRequiredParameters]
+-[PNNetwork requestWithURL:method:data:]
+___40-[PNNetwork requestWithURL:method:data:]_block_invoke
+-[PNNetwork dataTaskWithRequest:forOperation:success:failure:]
+___62-[PNNetwork dataTaskWithRequest:forOperation:success:failure:]_block_invoke
+___copy_helper_block_.299
+___destroy_helper_block_.300
+___62-[PNNetwork dataTaskWithRequest:forOperation:success:failure:]_block_invoke.303
+___copy_helper_block_.313
+___destroy_helper_block_.314
+-[PNNetwork operationExpectResult:]
+___35-[PNNetwork operationExpectResult:]_block_invoke
+-[PNNetwork parserForOperation:]
+___32-[PNNetwork parserForOperation:]_block_invoke
+-[PNNetwork resultClassForOperation:]
+-[PNNetwork statusClassForOperation:]
+-[PNNetwork processOperation:withParameters:data:completionBlock:]
+___66-[PNNetwork processOperation:withParameters:data:completionBlock:]_block_invoke
+___copy_helper_block_.384
+___destroy_helper_block_.385
+___66-[PNNetwork processOperation:withParameters:data:completionBlock:]_block_invoke.388
+___copy_helper_block_.391
+___destroy_helper_block_.392
+___66-[PNNetwork processOperation:withParameters:data:completionBlock:]_block_invoke.398
+___copy_helper_block_.401
+___destroy_helper_block_.402
+-[PNNetwork parseData:withParser:completion:]
+___45-[PNNetwork parseData:withParser:completion:]_block_invoke
+___copy_helper_block_.416
+___destroy_helper_block_.417
+___45-[PNNetwork parseData:withParser:completion:]_block_invoke.434
+___45-[PNNetwork parseData:withParser:completion:]_block_invoke_2
+___copy_helper_block_.439
+___destroy_helper_block_.440
+___copy_helper_block_.442
+___destroy_helper_block_.443
+-[PNNetwork cancelAllOperationsWithURLPrefix:]
+___46-[PNNetwork cancelAllOperationsWithURLPrefix:]_block_invoke
+___46-[PNNetwork cancelAllOperationsWithURLPrefix:]_block_invoke_2
+___copy_helper_block_.458
+___destroy_helper_block_.459
+___copy_helper_block_.464
+___destroy_helper_block_.465
+-[PNNetwork invalidate]
+___23-[PNNetwork invalidate]_block_invoke
+___copy_helper_block_.470
+___destroy_helper_block_.471
+-[PNNetwork packetSizeForOperation:withParameters:data:]
+-[PNNetwork prepareSessionWithRequestTimeout:maximumConnections:]
+-[PNNetwork configurationWithRequestTimeout:maximumConnections:]
+-[PNNetwork operationQueueWithConfiguration:]
+-[PNNetwork sessionWithConfiguration:]
+-[PNNetwork requestBaseURL]
+-[PNNetwork URLSession:didBecomeInvalidWithError:]
+___50-[PNNetwork URLSession:didBecomeInvalidWithError:]_block_invoke
+___copy_helper_block_.523
+___destroy_helper_block_.524
+-[PNNetwork URLSession:task:didCompleteWithError:]
+___50-[PNNetwork URLSession:task:didCompleteWithError:]_block_invoke
+___copy_helper_block_.542
+___destroy_helper_block_.543
+-[PNNetwork URLSession:dataTask:didReceiveData:]
+-[PNNetwork handleData:loadedWithTask:error:usingSuccess:failure:]
+___66-[PNNetwork handleData:loadedWithTask:error:usingSuccess:failure:]_block_invoke
+___copy_helper_block_.551
+___destroy_helper_block_.552
+-[PNNetwork handleOperation:taskDidComplete:withData:completionBlock:]
+___70-[PNNetwork handleOperation:taskDidComplete:withData:completionBlock:]_block_invoke
+___copy_helper_block_.558
+___destroy_helper_block_.559
+-[PNNetwork handleOperation:taskDidFail:withError:completionBlock:]
+___67-[PNNetwork handleOperation:taskDidFail:withError:completionBlock:]_block_invoke
+___copy_helper_block_.567
+___destroy_helper_block_.568
+-[PNNetwork handleParsedData:loadedWithTask:forOperation:parsedAsError:processingError:completionBlock:]
+-[PNNetwork handleOperation:processingCompletedWithResult:status:completionBlock:]
+-[PNNetwork URLSession:task:didFinishCollectingMetrics:]
+___56-[PNNetwork URLSession:task:didFinishCollectingMetrics:]_block_invoke
+___56-[PNNetwork URLSession:task:didFinishCollectingMetrics:]_block_invoke_2
+___copy_helper_block_.606
+___destroy_helper_block_.607
+___copy_helper_block_.609
+___destroy_helper_block_.610
+-[PNNetwork formattedMetricsDataFrom:redirection:]
+-[PNNetwork printIfRequiredSessionCustomizationInformation]
+-[PNNetwork client]
+-[PNNetwork setClient:]
+-[PNNetwork configuration]
+-[PNNetwork setConfiguration:]
+-[PNNetwork identifier]
+-[PNNetwork setIdentifier:]
+-[PNNetwork forLongPollRequests]
+-[PNNetwork setForLongPollRequests:]
+-[PNNetwork requestTimeout]
+-[PNNetwork setRequestTimeout:]
+-[PNNetwork maximumConnections]
+-[PNNetwork setMaximumConnections:]
+-[PNNetwork session]
+-[PNNetwork setSession:]
+-[PNNetwork sessionIdentifier]
+-[PNNetwork setSessionIdentifier:]
+-[PNNetwork previousDataTaskCompletionHandler]
+-[PNNetwork setPreviousDataTaskCompletionHandler:]
+-[PNNetwork fetchedData]
+-[PNNetwork setFetchedData:]
+-[PNNetwork baseURL]
+-[PNNetwork setBaseURL:]
+-[PNNetwork serializer]
+-[PNNetwork setSerializer:]
+-[PNNetwork defaultPathComponents]
+-[PNNetwork setDefaultPathComponents:]
+-[PNNetwork defaultQueryComponents]
+-[PNNetwork setDefaultQueryComponents:]
+-[PNNetwork dataTaskToOperationMap]
+-[PNNetwork setDataTaskToOperationMap:]
+-[PNNetwork isMetricsNotSupportByOS]
+-[PNNetwork setMetricsNotSupportedByOS:]
+-[PNNetwork delegateQueue]
+-[PNNetwork setDelegateQueue:]
+-[PNNetwork processingQueue]
+-[PNNetwork setProcessingQueue:]
+-[PNNetwork lock]
+-[PNNetwork setLock:]
+-[PNNetwork .cxx_destruct]
+_PNOperationResultClasses
+_PNOperationStatusClasses
+_OBJC_IVAR_$_PNNetwork._client
+_OBJC_IVAR_$_PNNetwork._metricsNotSupportedByOS
+_OBJC_IVAR_$_PNNetwork._configuration
+_OBJC_IVAR_$_PNNetwork._forLongPollRequests
+_OBJC_IVAR_$_PNNetwork._identifier
+_OBJC_IVAR_$_PNNetwork._processingQueue
+_OBJC_IVAR_$_PNNetwork._dataTaskToOperationMap
+_OBJC_IVAR_$_PNNetwork._serializer
+_OBJC_IVAR_$_PNNetwork._baseURL
+_OBJC_IVAR_$_PNNetwork._lock
+_appendRequiredParametersTo:.isTestEnvironment
+_appendRequiredParametersTo:.onceToken
+_OBJC_IVAR_$_PNNetwork._defaultPathComponents
+_OBJC_IVAR_$_PNNetwork._defaultQueryComponents
+___block_descriptor_tmp.261
+___block_descriptor_tmp.302
+___block_descriptor_tmp.315
+_operationExpectResult:._resultExpectingOperations
+_operationExpectResult:.onceToken
+___block_descriptor_tmp.316
+___block_literal_global.317
+_parserForOperation:._parsers
+_parserForOperation:.onceToken
+___block_descriptor_tmp.325
+___block_literal_global.326
+___block_descriptor_tmp.387
+___block_descriptor_tmp.393
+___block_descriptor_tmp.403
+___block_descriptor_tmp.419
+___block_descriptor_tmp.441
+___block_descriptor_tmp.445
+___block_descriptor_tmp.461
+___block_descriptor_tmp.467
+_OBJC_IVAR_$_PNNetwork._session
+___block_descriptor_tmp.472
+_OBJC_IVAR_$_PNNetwork._requestTimeout
+_OBJC_IVAR_$_PNNetwork._maximumConnections
+_OBJC_IVAR_$_PNNetwork._delegateQueue
+_OBJC_IVAR_$_PNNetwork._sessionIdentifier
+___block_descriptor_tmp.525
+___block_descriptor_tmp.544
+___block_descriptor_tmp.553
+___block_descriptor_tmp.561
+___block_descriptor_tmp.569
+___block_descriptor_tmp.608
+___block_descriptor_tmp.612
+_OBJC_IVAR_$_PNNetwork._previousDataTaskCompletionHandler
+_OBJC_IVAR_$_PNNetwork._fetchedData
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/PNNetwork.m
+__56-[PNNetwork URLSession:task:didFinishCollectingMetrics:]_block_invoke_2
+__56-[PNNetwork URLSession:task:didFinishCollectingMetrics:]_block_invoke
+__67-[PNNetwork handleOperation:taskDidFail:withError:completionBlock:]_block_invoke
+__70-[PNNetwork handleOperation:taskDidComplete:withData:completionBlock:]_block_invoke
+__66-[PNNetwork handleData:loadedWithTask:error:usingSuccess:failure:]_block_invoke
+__50-[PNNetwork URLSession:task:didCompleteWithError:]_block_invoke
+__50-[PNNetwork URLSession:didBecomeInvalidWithError:]_block_invoke
+__23-[PNNetwork invalidate]_block_invoke
+__46-[PNNetwork cancelAllOperationsWithURLPrefix:]_block_invoke_2
+__46-[PNNetwork cancelAllOperationsWithURLPrefix:]_block_invoke
+__45-[PNNetwork parseData:withParser:completion:]_block_invoke_2
+__45-[PNNetwork parseData:withParser:completion:]_block_invoke.434
+__45-[PNNetwork parseData:withParser:completion:]_block_invoke
+__66-[PNNetwork processOperation:withParameters:data:completionBlock:]_block_invoke.398
+__66-[PNNetwork processOperation:withParameters:data:completionBlock:]_block_invoke.388
+__66-[PNNetwork processOperation:withParameters:data:completionBlock:]_block_invoke
+__32-[PNNetwork parserForOperation:]_block_invoke
+__35-[PNNetwork operationExpectResult:]_block_invoke
+__62-[PNNetwork dataTaskWithRequest:forOperation:success:failure:]_block_invoke.303
+__62-[PNNetwork dataTaskWithRequest:forOperation:success:failure:]_block_invoke
+__40-[PNNetwork requestWithURL:method:data:]_block_invoke
+__40-[PNNetwork appendRequiredParametersTo:]_block_invoke
+-[PNMessageCountData channels]
+-[PNMessageCountResult data]
+-[PNMessageCountResult setData:]
+-[PNMessageCountResult .cxx_destruct]
+_OBJC_IVAR_$_PNMessageCountResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNMessageCountResult.m
++[PNChannel namesForRequest:]
++[PNChannel namesForRequest:defaultString:]
+___43+[PNChannel namesForRequest:defaultString:]_block_invoke
++[PNChannel namesFromRequest:]
++[PNChannel isPresenceObject:]
++[PNChannel channelForPresence:]
++[PNChannel presenceChannelsFrom:]
++[PNChannel objectsWithOutPresenceFrom:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNChannel.m
+__43+[PNChannel namesForRequest:defaultString:]_block_invoke
+-[PNLLogger writeToConsole]
+___27-[PNLLogger writeToConsole]_block_invoke
+-[PNLLogger setWriteToConsole:]
+___31-[PNLLogger setWriteToConsole:]_block_invoke
+___copy_helper_block_.2
+___destroy_helper_block_.3
+-[PNLLogger writeToFile]
+___24-[PNLLogger writeToFile]_block_invoke
+-[PNLLogger setWriteToFile:]
+___28-[PNLLogger setWriteToFile:]_block_invoke
+-[PNLLogger setMaximumLogFileSize:]
+___35-[PNLLogger setMaximumLogFileSize:]_block_invoke
+___35-[PNLLogger setMaximumLogFileSize:]_block_invoke.14
+-[PNLLogger setMaximumNumberOfLogFiles:]
+___40-[PNLLogger setMaximumNumberOfLogFiles:]_block_invoke
+___40-[PNLLogger setMaximumNumberOfLogFiles:]_block_invoke.23
+-[PNLLogger currentLogInformation]
+___34-[PNLLogger currentLogInformation]_block_invoke
+-[PNLLogger currentLogHandler]
+___30-[PNLLogger currentLogHandler]_block_invoke
+___30-[PNLLogger currentLogHandler]_block_invoke_2
++[PNLLogger loggerWithIdentifier:]
++[PNLLogger loggerWithIdentifier:directory:]
++[PNLLogger loggerWithIdentifier:directory:logExtension:]
+___57+[PNLLogger loggerWithIdentifier:directory:logExtension:]_block_invoke
+-[PNLLogger initWithIdentifier:directory:logExtension:]
+-[PNLLogger setEnabled:]
+___24-[PNLLogger setEnabled:]_block_invoke
+-[PNLLogger enableLogLevel:]
+___28-[PNLLogger enableLogLevel:]_block_invoke
+___copy_helper_block_.107
+___destroy_helper_block_.108
+-[PNLLogger disableLogLevel:]
+___29-[PNLLogger disableLogLevel:]_block_invoke
+-[PNLLogger setLogLevel:]
+___25-[PNLLogger setLogLevel:]_block_invoke
+___copy_helper_block_.113
+___destroy_helper_block_.114
+-[PNLLogger log:format:]
+___24-[PNLLogger log:format:]_block_invoke
+___copy_helper_block_.116
+___destroy_helper_block_.117
+-[PNLLogger log:message:]
+___25-[PNLLogger log:message:]_block_invoke
+-[PNLLogger newLogFileName]
+-[PNLLogger createLogFile]
+-[PNLLogger rollRecentLogFileIfRequired]
+___40-[PNLLogger rollRecentLogFileIfRequired]_block_invoke
+-[PNLLogger rollCurrentLogFileOnMove:]
+___38-[PNLLogger rollCurrentLogFileOnMove:]_block_invoke
+-[PNLLogger deleteOldLogsIfRequired]
+___36-[PNLLogger deleteOldLogsIfRequired]_block_invoke
+-[PNLLogger indexExistingLogFiles]
+-[PNLLogger observeValueForKeyPath:ofObject:change:context:]
++[PNLLogger loggersCache]
+___25+[PNLLogger loggersCache]_block_invoke
++[PNLLogger defaultLogsDirectoryPath]
+-[PNLLogger workingDirectoryPath:]
+-[PNLLogger retrieveEnvironmentInformation]
+-[PNLLogger prepareDateFormatter]
+-[PNLLogger currentThreadID]
+-[PNLLogger getTimestamp:fromDate:]
+-[PNLLogger startPropertiesModificationObservation]
+-[PNLLogger stopPropertiesModificationObservation]
+-[PNLLogger filteredLogFileNames:]
+-[PNLLogger dealloc]
+-[PNLLogger identifier]
+-[PNLLogger setIdentifier:]
+-[PNLLogger directory]
+-[PNLLogger setDirectory:]
+-[PNLLogger logLevel]
+-[PNLLogger enabled]
+-[PNLLogger maximumLogFileSize]
+-[PNLLogger maximumNumberOfLogFiles]
+-[PNLLogger logFilesDiskQuota]
+-[PNLLogger setLogFilesDiskQuota:]
+-[PNLLogger logLevelChangeHandler]
+-[PNLLogger setLogLevelChangeHandler:]
+-[PNLLogger applicationName]
+-[PNLLogger setApplicationName:]
+-[PNLLogger applicationProcessID]
+-[PNLLogger setApplicationProcessID:]
+-[PNLLogger logFileExtension]
+-[PNLLogger setLogFileExtension:]
+-[PNLLogger logFilesInformation]
+-[PNLLogger setLogFilesInformation:]
+-[PNLLogger setCurrentLogInformation:]
+-[PNLLogger setCurrentLogHandler:]
+-[PNLLogger logFileWatchdog]
+-[PNLLogger setLogFileWatchdog:]
+-[PNLLogger calendarUnits]
+-[PNLLogger setCalendarUnits:]
+-[PNLLogger dateFormatter]
+-[PNLLogger setDateFormatter:]
+-[PNLLogger queue]
+-[PNLLogger setQueue:]
+-[PNLLogger accessLock]
+-[PNLLogger setAccessLock:]
+-[PNLLogger .cxx_destruct]
+_OBJC_IVAR_$_PNLLogger._accessLock
+_OBJC_IVAR_$_PNLLogger._writeToConsole
+_OBJC_IVAR_$_PNLLogger._writeToFile
+_OBJC_IVAR_$_PNLLogger._maximumLogFileSize
+_OBJC_IVAR_$_PNLLogger._maximumNumberOfLogFiles
+___block_descriptor_tmp.22
+_OBJC_IVAR_$_PNLLogger._currentLogInformation
+_OBJC_IVAR_$_PNLLogger._currentLogHandler
+_OBJC_IVAR_$_PNLLogger._queue
+_OBJC_IVAR_$_PNLLogger._logFileWatchdog
+_pnl_cacheAccessLock
+_OBJC_IVAR_$_PNLLogger._identifier
+_OBJC_IVAR_$_PNLLogger._directory
+_OBJC_IVAR_$_PNLLogger._logFileExtension
+_OBJC_IVAR_$_PNLLogger._logFilesDiskQuota
+_OBJC_IVAR_$_PNLLogger._logFilesInformation
+_OBJC_IVAR_$_PNLLogger._enabled
+___block_descriptor_tmp.106
+_OBJC_IVAR_$_PNLLogger._logLevel
+_OBJC_IVAR_$_PNLLogger._logLevelChangeHandler
+___block_descriptor_tmp.109
+___block_descriptor_tmp.115
+_OBJC_IVAR_$_PNLLogger._applicationCName
+_OBJC_IVAR_$_PNLLogger._applicationNameLength
+_OBJC_IVAR_$_PNLLogger._applicationProcessCID
+_OBJC_IVAR_$_PNLLogger._applicationProcessIDLength
+_OBJC_IVAR_$_PNLLogger._applicationName
+_OBJC_IVAR_$_PNLLogger._applicationProcessID
+_loggersCache._sharedLoggersCache
+_loggersCache.onceToken
+___block_descriptor_tmp.307
+_OBJC_IVAR_$_PNLLogger._calendarUnits
+_OBJC_IVAR_$_PNLLogger._dateFormatter
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Logger/Core/PNLLogger.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Logger/Core/PNLLogger.h
+__25+[PNLLogger loggersCache]_block_invoke
+__36-[PNLLogger deleteOldLogsIfRequired]_block_invoke
+__38-[PNLLogger rollCurrentLogFileOnMove:]_block_invoke
+__40-[PNLLogger rollRecentLogFileIfRequired]_block_invoke
+__25-[PNLLogger log:message:]_block_invoke
+__24-[PNLLogger log:format:]_block_invoke
+__25-[PNLLogger setLogLevel:]_block_invoke
+__29-[PNLLogger disableLogLevel:]_block_invoke
+__28-[PNLLogger enableLogLevel:]_block_invoke
+__24-[PNLLogger setEnabled:]_block_invoke
+__57+[PNLLogger loggerWithIdentifier:directory:logExtension:]_block_invoke
+__30-[PNLLogger currentLogHandler]_block_invoke_2
+__30-[PNLLogger currentLogHandler]_block_invoke
+__34-[PNLLogger currentLogInformation]_block_invoke
+__40-[PNLLogger setMaximumNumberOfLogFiles:]_block_invoke.23
+__40-[PNLLogger setMaximumNumberOfLogFiles:]_block_invoke
+__35-[PNLLogger setMaximumLogFileSize:]_block_invoke.14
+__35-[PNLLogger setMaximumLogFileSize:]_block_invoke
+__28-[PNLLogger setWriteToFile:]_block_invoke
+__24-[PNLLogger writeToFile]_block_invoke
+__31-[PNLLogger setWriteToConsole:]_block_invoke
+__27-[PNLLogger writeToConsole]_block_invoke
+-[PNResult stringifiedOperation]
++[PNResult objectForOperation:completedWithTask:processedData:processingError:]
+-[PNResult initForOperation:completedWithTask:processedData:processingError:]
+-[PNResult copyWithZone:]
+-[PNResult copyWithMutatedData:]
+-[PNResult updateData:]
+-[PNResult copyWithServiceData:]
+-[PNResult normalizedServiceData:]
+-[PNResult methodSignatureForSelector:]
+-[PNResult forwardInvocation:]
+-[PNResult doNothing]
+-[PNResult dictionaryRepresentation]
+-[PNResult stringifiedRepresentation]
+-[PNResult debugDescription]
+-[PNResult statusCode]
+-[PNResult setStatusCode:]
+-[PNResult operation]
+-[PNResult setOperation:]
+-[PNResult isTLSEnabled]
+-[PNResult setTLSEnabled:]
+-[PNResult uuid]
+-[PNResult setUuid:]
+-[PNResult authKey]
+-[PNResult setAuthKey:]
+-[PNResult origin]
+-[PNResult setOrigin:]
+-[PNResult clientRequest]
+-[PNResult setClientRequest:]
+-[PNResult isUnexpectedServiceData]
+-[PNResult setUnexpectedServiceData:]
+-[PNResult serviceData]
+-[PNResult setServiceData:]
+-[PNResult .cxx_destruct]
+_PNOperationTypeStrings
+_OBJC_IVAR_$_PNResult._statusCode
+_OBJC_IVAR_$_PNResult._operation
+_OBJC_IVAR_$_PNResult._clientRequest
+_OBJC_IVAR_$_PNResult._unexpectedServiceData
+_OBJC_IVAR_$_PNResult._serviceData
+_OBJC_IVAR_$_PNResult._TLSEnabled
+_OBJC_IVAR_$_PNResult._uuid
+_OBJC_IVAR_$_PNResult._authKey
+_OBJC_IVAR_$_PNResult._origin
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNResult.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNResult.h
++[PNMessageCountParser operations]
++[PNMessageCountParser requireAdditionalData]
++[PNMessageCountParser parsedServiceResponse:withData:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Network/Parsers/PNMessageCountParser.m
+-[PNClientStateData channels]
+-[PNClientStateGetResult data]
+-[PNClientStateGetResult setData:]
+-[PNClientStateGetResult .cxx_destruct]
+_OBJC_IVAR_$_PNClientStateGetResult._data
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNClientStateGetResult.m
+-[PNStatus stringifiedCategory]
+-[PNStatus updateCategory:]
+-[PNStatus setCategory:]
++[PNStatus statusForOperation:category:withProcessingError:]
+-[PNStatus initForOperation:category:withProcessingError:]
+-[PNStatus initForOperation:completedWithTask:processedData:processingError:]
+-[PNStatus copyWithZone:]
+-[PNStatus retry]
+-[PNStatus cancelAutomaticRetry]
+-[PNStatus categoryTypeFromStatusCode:]
+-[PNStatus categoryTypeFromError:]
+-[PNStatus dataFromError:]
+-[PNStatus dictionaryRepresentation]
+-[PNStatus category]
+-[PNStatus isError]
+-[PNStatus setError:]
+-[PNStatus willAutomaticallyRetry]
+-[PNStatus setAutomaticallyRetry:]
+-[PNStatus currentTimetoken]
+-[PNStatus setCurrentTimetoken:]
+-[PNStatus lastTimeToken]
+-[PNStatus setLastTimeToken:]
+-[PNStatus currentTimeTokenRegion]
+-[PNStatus setCurrentTimeTokenRegion:]
+-[PNStatus lastTimeTokenRegion]
+-[PNStatus setLastTimeTokenRegion:]
+-[PNStatus subscribedChannels]
+-[PNStatus setSubscribedChannels:]
+-[PNStatus subscribedChannelGroups]
+-[PNStatus setSubscribedChannelGroups:]
+-[PNStatus retryBlock]
+-[PNStatus setRetryBlock:]
+-[PNStatus retryCancelBlock]
+-[PNStatus setRetryCancelBlock:]
+-[PNStatus .cxx_destruct]
+_PNStatusCategoryStrings
+_OBJC_IVAR_$_PNStatus._category
+_OBJC_IVAR_$_PNStatus._error
+_OBJC_IVAR_$_PNStatus._automaticallyRetry
+_OBJC_IVAR_$_PNStatus._currentTimetoken
+_OBJC_IVAR_$_PNStatus._lastTimeToken
+_OBJC_IVAR_$_PNStatus._currentTimeTokenRegion
+_OBJC_IVAR_$_PNStatus._lastTimeTokenRegion
+_OBJC_IVAR_$_PNStatus._subscribedChannels
+_OBJC_IVAR_$_PNStatus._subscribedChannelGroups
+_OBJC_IVAR_$_PNStatus._retryBlock
+_OBJC_IVAR_$_PNStatus._retryCancelBlock
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNStatus.m
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNStatus+Private.h
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Service Objects/PNStatus.h
+-[PNStateAuditAPICallBuilder uuid]
+___34-[PNStateAuditAPICallBuilder uuid]_block_invoke
+-[PNStateAuditAPICallBuilder channel]
+___37-[PNStateAuditAPICallBuilder channel]_block_invoke
+-[PNStateAuditAPICallBuilder channels]
+___38-[PNStateAuditAPICallBuilder channels]_block_invoke
+-[PNStateAuditAPICallBuilder channelGroup]
+___42-[PNStateAuditAPICallBuilder channelGroup]_block_invoke
+-[PNStateAuditAPICallBuilder channelGroups]
+___43-[PNStateAuditAPICallBuilder channelGroups]_block_invoke
+-[PNStateAuditAPICallBuilder performWithCompletion]
+___51-[PNStateAuditAPICallBuilder performWithCompletion]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/State/PNStateAuditAPICallBuilder.m
+__51-[PNStateAuditAPICallBuilder performWithCompletion]_block_invoke
+__43-[PNStateAuditAPICallBuilder channelGroups]_block_invoke
+__42-[PNStateAuditAPICallBuilder channelGroup]_block_invoke
+__38-[PNStateAuditAPICallBuilder channels]_block_invoke
+__37-[PNStateAuditAPICallBuilder channel]_block_invoke
+__34-[PNStateAuditAPICallBuilder uuid]_block_invoke
++[PNNumber timeTokenFromNumber:]
++[PNNumber normalizeValue:]
++[PNNumber numberPrecision:]
++[PNNumber correctionForPrecision:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNNumber.m
+____pn_os_unfair_lock_functions_visible_block_invoke
+____pn_lock_async_block_invoke
+__pn_os_unfair_lock_functions_visible.visible
+__pn_os_unfair_lock_functions_visible.onceToken
+___block_descriptor_tmp.1
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNLockSupport.m
+pn_trylock_async
+pn_lock_async
+pn_trylock
+pn_lock
+___pn_lock_async_block_invoke
+_pn_lock_unlock
+_pn_lock_lock
+_pn_lock_trylock
+___pn_os_unfair_lock_functions_visible_block_invoke
+_pn_os_unfair_lock_functions_visible
++[PNString percentEscapedString:]
+___33+[PNString percentEscapedString:]_block_invoke
++[PNString UTF8DataFrom:]
++[PNString base64DataFrom:]
++[PNString SHA256DataFrom:]
+_percentEscapedString:.allowedCharacters
+_percentEscapedString:.onceToken
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNString.m
+__33+[PNString percentEscapedString:]_block_invoke
+-[PNSubscribeChannelsOrGroupsAPIBuilder withPresence]
+___53-[PNSubscribeChannelsOrGroupsAPIBuilder withPresence]_block_invoke
+-[PNSubscribeChannelsOrGroupsAPIBuilder withTimetoken]
+___54-[PNSubscribeChannelsOrGroupsAPIBuilder withTimetoken]_block_invoke
+-[PNSubscribeChannelsOrGroupsAPIBuilder state]
+___46-[PNSubscribeChannelsOrGroupsAPIBuilder state]_block_invoke
+-[PNSubscribeChannelsOrGroupsAPIBuilder perform]
+___48-[PNSubscribeChannelsOrGroupsAPIBuilder perform]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/Builders/API Call/Subscribe/PNSubscribeChannelsOrGroupsAPIBuilder.m
+__48-[PNSubscribeChannelsOrGroupsAPIBuilder perform]_block_invoke
+__46-[PNSubscribeChannelsOrGroupsAPIBuilder state]_block_invoke
+__54-[PNSubscribeChannelsOrGroupsAPIBuilder withTimetoken]_block_invoke
+__53-[PNSubscribeChannelsOrGroupsAPIBuilder withPresence]_block_invoke
++[PNArray mapObjects:usingBlock:]
+___33+[PNArray mapObjects:usingBlock:]_block_invoke
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNArray.m
+__33+[PNArray mapObjects:usingBlock:]_block_invoke
++[PNJSON JSONStringFrom:withError:]
++[PNJSON JSONObjectFrom:withError:]
++[PNJSON isJSONString:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNJSON.m
++[PNGZIP GZIPDeflatedData:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNGZIP.m
++[PNData HEXFrom:]
++[PNData HEXFromDevicePushToken:]
++[PNData base64StringFrom:]
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Misc/Helpers/PNData.m
++[PNAES encrypt:withKey:]
++[PNAES encrypt:withKey:andError:]
++[PNAES decrypt:withKey:]
++[PNAES decrypt:withKey:andError:]
++[PNAES SHA256HexFromKey:]
+___26+[PNAES SHA256HexFromKey:]_block_invoke
+___26+[PNAES SHA256HexFromKey:]_block_invoke.64
++[PNAES processedDataFrom:withKey:forOperation:andStatus:]
++[PNAES errorFor:]
+_SHA256HexFromKey:._cipherKeysSpinLock
+_SHA256HexFromKey:._cipherKeys
+_SHA256HexFromKey:.onceToken
+/Users/markwill/Documents/coderepo/The Help Center/Carthage/Checkouts/objective-c/PubNub/Data/PNAES.m
+__26+[PNAES SHA256HexFromKey:]_block_invoke.64
+__26+[PNAES SHA256HexFromKey:]_block_invoke
+/Users/markwill/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10L201y/objective-c/v4.8.7/Build/Intermediates.noindex/ArchiveIntermediates/Framework (tvOS)/IntermediateBuildFilesPath/PubNub Framework.build/Release-appletvos/PubNub (tvOS).build/DerivedSources/PubNub_vers.c
