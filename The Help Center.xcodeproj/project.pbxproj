@@ -12,6 +12,13 @@
 		A62455F6225EFE410038EA7E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62455F4225EFE410038EA7E /* MainMenu.xib */; };
 		A62455F9225EFE410038EA7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62455F8225EFE410038EA7E /* main.m */; };
 		A6245604225EFE410038EA7E /* The_Help_CenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6245603225EFE410038EA7E /* The_Help_CenterTests.m */; };
+		A6245617226A376E0038EA7E /* PubNub.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6245616226A376E0038EA7E /* PubNub.framework.dSYM */; };
+		A6245619226A37DB0038EA7E /* PubNub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6245614226A37640038EA7E /* PubNub.framework */; };
+		A624561A226A37DB0038EA7E /* PubNub.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6245614226A37640038EA7E /* PubNub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6245620226B5F260038EA7E /* THCHelpChat.m in Sources */ = {isa = PBXBuildFile; fileRef = A624561E226B5F260038EA7E /* THCHelpChat.m */; };
+		A6245621226B5F260038EA7E /* THCHelpChat.xib in Resources */ = {isa = PBXBuildFile; fileRef = A624561F226B5F260038EA7E /* THCHelpChat.xib */; };
+		A6245625226CFF850038EA7E /* THCChatCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6245624226CFF850038EA7E /* THCChatCellView.m */; };
+		A6245628226D075E0038EA7E /* THCMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = A6245627226D075E0038EA7E /* THCMessageData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +30,20 @@
 			remoteInfo = "The Help Center";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A624561B226A37DB0038EA7E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A624561A226A37DB0038EA7E /* PubNub.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A62455EC225EFE3F0038EA7E /* The Help Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Help Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +57,16 @@
 		A62455FF225EFE410038EA7E /* The Help CenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Help CenterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6245603225EFE410038EA7E /* The_Help_CenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Help_CenterTests.m; sourceTree = "<group>"; };
 		A6245605225EFE410038EA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6245614226A37640038EA7E /* PubNub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PubNub.framework; path = "The Help Center/Frameworks/PubNub.framework"; sourceTree = SOURCE_ROOT; };
+		A6245616226A376E0038EA7E /* PubNub.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = PubNub.framework.dSYM; path = "The Help Center/Frameworks/PubNub.framework.dSYM"; sourceTree = SOURCE_ROOT; };
+		A624561C226A45800038EA7E /* The Help Center.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The Help Center.entitlements"; sourceTree = "<group>"; };
+		A624561D226B5F260038EA7E /* THCHelpChat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THCHelpChat.h; sourceTree = "<group>"; };
+		A624561E226B5F260038EA7E /* THCHelpChat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THCHelpChat.m; sourceTree = "<group>"; };
+		A624561F226B5F260038EA7E /* THCHelpChat.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = THCHelpChat.xib; sourceTree = "<group>"; };
+		A6245623226CFF850038EA7E /* THCChatCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THCChatCellView.h; sourceTree = "<group>"; };
+		A6245624226CFF850038EA7E /* THCChatCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THCChatCellView.m; sourceTree = "<group>"; };
+		A6245626226D075E0038EA7E /* THCMessageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THCMessageData.h; sourceTree = "<group>"; };
+		A6245627226D075E0038EA7E /* THCMessageData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THCMessageData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6245619226A37DB0038EA7E /* PubNub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +109,7 @@
 		A62455EE225EFE3F0038EA7E /* The Help Center */ = {
 			isa = PBXGroup;
 			children = (
+				A624561C226A45800038EA7E /* The Help Center.entitlements */,
 				A62455EF225EFE3F0038EA7E /* AppDelegate.h */,
 				A62455F0225EFE3F0038EA7E /* AppDelegate.m */,
 				A62455F2225EFE410038EA7E /* Assets.xcassets */,
@@ -84,6 +117,8 @@
 				A62455F7225EFE410038EA7E /* Info.plist */,
 				A62455F8225EFE410038EA7E /* main.m */,
 				A62455FA225EFE410038EA7E /* The_Help_Center.entitlements */,
+				A6245622226B5F3B0038EA7E /* Help Chat */,
+				A6245618226A37A80038EA7E /* Frameworks */,
 			);
 			path = "The Help Center";
 			sourceTree = "<group>";
@@ -97,6 +132,29 @@
 			path = "The Help CenterTests";
 			sourceTree = "<group>";
 		};
+		A6245618226A37A80038EA7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6245616226A376E0038EA7E /* PubNub.framework.dSYM */,
+				A6245614226A37640038EA7E /* PubNub.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6245622226B5F3B0038EA7E /* Help Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A624561D226B5F260038EA7E /* THCHelpChat.h */,
+				A624561E226B5F260038EA7E /* THCHelpChat.m */,
+				A624561F226B5F260038EA7E /* THCHelpChat.xib */,
+				A6245626226D075E0038EA7E /* THCMessageData.h */,
+				A6245627226D075E0038EA7E /* THCMessageData.m */,
+				A6245623226CFF850038EA7E /* THCChatCellView.h */,
+				A6245624226CFF850038EA7E /* THCChatCellView.m */,
+			);
+			path = "Help Chat";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,6 +165,7 @@
 				A62455E8225EFE3F0038EA7E /* Sources */,
 				A62455E9225EFE3F0038EA7E /* Frameworks */,
 				A62455EA225EFE3F0038EA7E /* Resources */,
+				A624561B226A37DB0038EA7E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +205,11 @@
 				TargetAttributes = {
 					A62455EB225EFE3F0038EA7E = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					A62455FE225EFE410038EA7E = {
 						CreatedOnToolsVersion = 10.1;
@@ -179,6 +243,8 @@
 			files = (
 				A62455F3225EFE410038EA7E /* Assets.xcassets in Resources */,
 				A62455F6225EFE410038EA7E /* MainMenu.xib in Resources */,
+				A6245621226B5F260038EA7E /* THCHelpChat.xib in Resources */,
+				A6245617226A376E0038EA7E /* PubNub.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6245620226B5F260038EA7E /* THCHelpChat.m in Sources */,
 				A62455F9225EFE410038EA7E /* main.m in Sources */,
+				A6245625226CFF850038EA7E /* THCChatCellView.m in Sources */,
 				A62455F1225EFE3F0038EA7E /* AppDelegate.m in Sources */,
+				A6245628226D075E0038EA7E /* THCMessageData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,11 +415,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "The Help Center/The_Help_Center.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "The Help Center/The Help Center.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 96N74WX6WF;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/The\\ Help\\ Center/Frameworks",
+				);
 				INFOPLIST_FILE = "The Help Center/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,11 +440,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "The Help Center/The_Help_Center.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "The Help Center/The Help Center.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 96N74WX6WF;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/The\\ Help\\ Center/Frameworks",
+				);
 				INFOPLIST_FILE = "The Help Center/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

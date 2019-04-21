@@ -7,22 +7,34 @@
 //
 
 #import "AppDelegate.h"
+#import "THCHelpChat.h"
 
 @interface AppDelegate ()
+- (IBAction)showChat:(id)sender;
 
 @property (weak) IBOutlet NSWindow *window;
+@property (strong) THCHelpChat *chatWindow;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    [self openChatWindow];
 }
-
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
 
+- (void)openChatWindow {
+    if (!self.chatWindow) {
+        self.chatWindow = [[THCHelpChat alloc] initWithWindowNibName:@"THCHelpChat"];
+    }
+    [self.chatWindow showWindow:self];
+}
 
+- (IBAction)showChat:(id)sender {
+    [self openChatWindow];
+}
 @end
