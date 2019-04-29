@@ -11,6 +11,7 @@
                 <outlet property="messagesTable" destination="BRh-ru-XHf" id="I3Z-Qx-b0e"/>
                 <outlet property="nameTextField" destination="j4I-7P-kLU" id="gEp-5s-ith"/>
                 <outlet property="questionTextField" destination="zvg-Jf-QrS" id="a6n-9n-3dh"/>
+                <outlet property="sendButton" destination="jWJ-rb-WF0" id="tld-VX-cCb"/>
                 <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>

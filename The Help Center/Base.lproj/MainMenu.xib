@@ -12,9 +12,11 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="publishKeyTextField" destination="Fig-Ti-Kx2" id="hep-0y-qvC"/>
+                <outlet property="subscribeKeyTextField" destination="4Zy-tT-owb" id="aOd-b1-nlI"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -686,16 +688,142 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="The Help Center" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="The Help Center" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
+            <rect key="contentRect" x="335" y="390" width="524" height="275"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <rect key="frame" x="0.0" y="0.0" width="524" height="292"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eqv-7i-CkV">
+                        <rect key="frame" x="143" y="254" width="239" height="18"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="PubNub / AWS Comprehend demo" id="sXZ-NY-eYY">
+                            <font key="font" metaFont="systemBold" size="14"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fdt-7E-gUQ">
+                        <rect key="frame" x="18" y="222" width="235" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="You will need 2 things for this to work:" id="lM9-Wv-mtg">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9pT-Cq-pnU">
+                        <rect key="frame" x="180" y="40" width="164" height="32"/>
+                        <buttonCell key="cell" type="push" title="Launch chat window" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="AUy-IH-J49">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showChat:" target="Voe-Tx-rLC" id="kD6-b6-qaP"/>
+                        </connections>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fVM-eE-v9l">
+                        <rect key="frame" x="18" y="197" width="171" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="1. Your PubNub credentials:" id="fkz-rf-auh">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="ZPP-qV-Jbp">
+                        <rect key="frame" x="18" y="110" width="16" height="17"/>
+                        <textFieldCell key="cell" title="2." id="j47-EI-E11">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UJj-lK-kz7">
+                        <rect key="frame" x="28" y="170" width="94" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Subscribe key:" id="FDS-WT-Ghs">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tCT-rG-Zs6">
+                        <rect key="frame" x="28" y="138" width="77" height="17"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Publish key:" id="X4x-TI-5u9">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Zy-tT-owb">
+                        <rect key="frame" x="128" y="167" width="376" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="DVU-bj-W4e">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fig-Ti-Kx2">
+                        <rect key="frame" x="128" y="135" width="376" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="0J6-J9-bDc">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hiQ-8g-7jW">
+                        <rect key="frame" x="71" y="25" width="382" height="14"/>
+                        <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" alignment="center" title="Hint: click more than once to get multiple windows – chat with yourself!" id="RWD-ew-EbI">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="XNw-F8-42U">
+                        <rect key="frame" x="33" y="93" width="473" height="34"/>
+                        <textFieldCell key="cell" selectable="YES" title="(optional) Add AWS Comprehend to your PubNub account for sentiment analysis of chat text. See README for details. " id="UUm-Dv-PFK">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Fdt-7E-gUQ" secondAttribute="trailing" constant="20" symbolic="YES" id="3Fl-BZ-Wh8"/>
+                    <constraint firstItem="Fdt-7E-gUQ" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="6Mc-Af-Xnh"/>
+                    <constraint firstItem="hiQ-8g-7jW" firstAttribute="top" secondItem="9pT-Cq-pnU" secondAttribute="bottom" constant="8" id="911-jd-EXr"/>
+                    <constraint firstItem="eqv-7i-CkV" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="BYv-h5-dac"/>
+                    <constraint firstItem="XNw-F8-42U" firstAttribute="leading" secondItem="ZPP-qV-Jbp" secondAttribute="trailing" constant="3" id="BvR-rt-OPM"/>
+                    <constraint firstItem="Fig-Ti-Kx2" firstAttribute="leading" secondItem="4Zy-tT-owb" secondAttribute="leading" id="F40-nl-N0b"/>
+                    <constraint firstItem="XNw-F8-42U" firstAttribute="top" secondItem="ZPP-qV-Jbp" secondAttribute="top" id="FZM-1P-Vkd"/>
+                    <constraint firstItem="4Zy-tT-owb" firstAttribute="centerY" secondItem="UJj-lK-kz7" secondAttribute="centerY" id="HfW-u3-pAu"/>
+                    <constraint firstAttribute="trailing" secondItem="4Zy-tT-owb" secondAttribute="trailing" constant="20" symbolic="YES" id="J9K-kg-H3V"/>
+                    <constraint firstItem="hiQ-8g-7jW" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="KM2-ct-VlC"/>
+                    <constraint firstItem="fVM-eE-v9l" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="MBe-jS-Nsr"/>
+                    <constraint firstItem="9pT-Cq-pnU" firstAttribute="top" secondItem="XNw-F8-42U" secondAttribute="bottom" constant="25" id="MIE-iY-4Gi"/>
+                    <constraint firstItem="4Zy-tT-owb" firstAttribute="top" secondItem="fVM-eE-v9l" secondAttribute="bottom" constant="8" id="Oi4-5e-P3J"/>
+                    <constraint firstItem="4Zy-tT-owb" firstAttribute="leading" secondItem="UJj-lK-kz7" secondAttribute="trailing" constant="8" symbolic="YES" id="Seh-uj-Pc8"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fVM-eE-v9l" secondAttribute="trailing" constant="20" symbolic="YES" id="VwD-Fl-c1q"/>
+                    <constraint firstItem="tCT-rG-Zs6" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="30" id="XkA-Zj-s9I"/>
+                    <constraint firstItem="Fig-Ti-Kx2" firstAttribute="top" secondItem="4Zy-tT-owb" secondAttribute="bottom" constant="10" symbolic="YES" id="Y5s-Wm-BC5"/>
+                    <constraint firstItem="ZPP-qV-Jbp" firstAttribute="top" secondItem="Fig-Ti-Kx2" secondAttribute="bottom" constant="8" id="ZBb-cD-i5A"/>
+                    <constraint firstItem="Fdt-7E-gUQ" firstAttribute="top" secondItem="eqv-7i-CkV" secondAttribute="bottom" constant="15" id="dWc-hM-fxz"/>
+                    <constraint firstAttribute="bottom" secondItem="hiQ-8g-7jW" secondAttribute="bottom" constant="25" id="fs6-P2-KKk"/>
+                    <constraint firstItem="Fig-Ti-Kx2" firstAttribute="centerY" secondItem="tCT-rG-Zs6" secondAttribute="centerY" id="lGh-Hp-csH"/>
+                    <constraint firstItem="eqv-7i-CkV" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="20" id="lsM-4I-B87"/>
+                    <constraint firstItem="UJj-lK-kz7" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="30" id="m0x-za-XQ3"/>
+                    <constraint firstAttribute="trailing" secondItem="Fig-Ti-Kx2" secondAttribute="trailing" constant="20" symbolic="YES" id="nTD-Rf-yqC"/>
+                    <constraint firstItem="9pT-Cq-pnU" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="qQT-CS-1zg"/>
+                    <constraint firstItem="fVM-eE-v9l" firstAttribute="top" secondItem="Fdt-7E-gUQ" secondAttribute="bottom" constant="8" symbolic="YES" id="uBC-Pc-6zs"/>
+                    <constraint firstItem="Fig-Ti-Kx2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tCT-rG-Zs6" secondAttribute="trailing" constant="8" symbolic="YES" id="uDt-1n-xxA"/>
+                    <constraint firstAttribute="trailing" secondItem="XNw-F8-42U" secondAttribute="trailing" constant="20" symbolic="YES" id="uxw-dc-kmf"/>
+                    <constraint firstItem="ZPP-qV-Jbp" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="voG-sX-CD8"/>
+                </constraints>
             </view>
-            <point key="canvasLocation" x="191" y="494"/>
+            <point key="canvasLocation" x="-242" y="578.5"/>
         </window>
     </objects>
 </document>

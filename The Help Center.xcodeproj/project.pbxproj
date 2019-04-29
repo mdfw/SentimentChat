@@ -53,7 +53,6 @@
 		A62455F5225EFE410038EA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A62455F7225EFE410038EA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A62455F8225EFE410038EA7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A62455FA225EFE410038EA7E /* The_Help_Center.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Help_Center.entitlements; sourceTree = "<group>"; };
 		A62455FF225EFE410038EA7E /* The Help CenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Help CenterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6245603225EFE410038EA7E /* The_Help_CenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Help_CenterTests.m; sourceTree = "<group>"; };
 		A6245605225EFE410038EA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,7 +115,6 @@
 				A62455F4225EFE410038EA7E /* MainMenu.xib */,
 				A62455F7225EFE410038EA7E /* Info.plist */,
 				A62455F8225EFE410038EA7E /* main.m */,
-				A62455FA225EFE410038EA7E /* The_Help_Center.entitlements */,
 				A6245622226B5F3B0038EA7E /* Help Chat */,
 				A6245618226A37A80038EA7E /* Frameworks */,
 			);
@@ -419,7 +417,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 96N74WX6WF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -444,7 +442,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 96N74WX6WF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",

@@ -12,8 +12,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate>
+@property NSString *subscribeKey;
+@property NSString *publishKey;
 @end
 

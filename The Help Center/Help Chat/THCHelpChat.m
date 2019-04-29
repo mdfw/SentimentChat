@@ -60,6 +60,7 @@
 #import <PubNub/PubNub.h>
 #import "THCChatCellView.h"
 #import "THCMessageData.h"
+#import "AppDelegate.h"
 
 NSString * const kMessageDataKeyUUID = @"uuid";
 NSString * const kSentimentMessageDataKeyUUID = @"originalUUID";
@@ -83,6 +84,7 @@ NSString * const kMessageDataKeySentimentCapped = @"Sentiment";
 
 @property (weak) IBOutlet NSTextField *nameTextField; // A name for the chat.
 @property (weak) IBOutlet NSTextField *questionTextField; // The chat text
+@property (weak) IBOutlet NSButton *sendButton;
 @property (weak) IBOutlet NSTableView *messagesTable; // The table where all the data stays.
 
 - (IBAction)sendMessage:(id)sender;
@@ -95,6 +97,7 @@ NSString * const kMessageDataKeySentimentCapped = @"Sentiment";
     [super windowDidLoad];
     
     self.messagesArray = [NSMutableArray array];
+    
     self.mainChannel = @"Channel-helpchat";
     self.sentimentChannel = @"Channel-sentiment";
     
@@ -103,7 +106,11 @@ NSString * const kMessageDataKeySentimentCapped = @"Sentiment";
 
 #pragma mark - set up pubnub
 - (void)setUpPubNub {
-    PNConfiguration *configuration = [PNConfiguration configurationWithPublishKey:@"YOUR_PUBNUB_PUBLISH_KEY" subscribeKey:@"YOUR_PUBNUB_SUBSCRIBE_KEY"];
+    AppDelegate *appDelegate = (AppDelegate *)[NSApp delegate];
+    NSString *subKey = appDelegate.subscribeKey;
+    NSString *pubKey = appDelegate.publishKey;
+    
+    PNConfiguration *configuration = [PNConfiguration configurationWithPublishKey:pubKey subscribeKey:subKey];
     configuration.stripMobilePayload = NO;  // Removes an API deprecation warning
     self.pubNubClient = [PubNub clientWithConfiguration:configuration];
     [self.pubNubClient addListener:self];
@@ -160,12 +167,11 @@ NSString * const kMessageDataKeySentimentCapped = @"Sentiment";
     NSString *name = self.nameTextField.stringValue;
     NSString *iden = [[NSUUID UUID] UUIDString];
     NSDictionary *payload = @{kMessageDataKeyData: @{kMessageDataKeyUUID: iden, kMessageDataKeyText: text, kMessageDataKeySenderName: name, @"comprehend": @{@"language": @"en", @"location": kMessageDataKeyText}}};
-
     [self.pubNubClient publish:payload toChannel:self.mainChannel withCompletion:^(PNPublishStatus * _Nonnull status) {
         if (!status.isError) {
-            NSLog(@"Sent!");
+            // NSLog(@"Sent!");
         } else {
-            NSLog(@"Failed: %ld", (long)status.category);
+            NSLog(@"Failed sending: %ld", (long)status.category);
         }
     }];
 }
@@ -173,7 +179,7 @@ NSString * const kMessageDataKeySentimentCapped = @"Sentiment";
 #pragma mark - table datasource and delegate
 /*
  Normally these should be put in their own controller to keep our view controllers from growing out of control.
- However, that can make it difficult to reason about. For this demo we're leaving them in.
+ However, that can make it difficult to reason about. For this demo we're leaving them in for the demo.
  
  Bug: Table rows are not variable height. Should fix that.
  */
@@ -211,4 +217,5 @@ NSString * const kMessageDataKeySentimentCapped = @"Sentiment";
     }
     return chatCell;
 }
+
 @end
